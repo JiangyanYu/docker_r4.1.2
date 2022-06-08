@@ -2,9 +2,14 @@
 
 Here are the files to creat a new docker image to host R v4.1.2
 
-Platform:
+#1. configure 
+1) Platform:
 
-CranBioc Packages installed along with docker build are listed in 
+2) CranBioc Packages installed along with docker build are listed in installed_CranBioc.txt
+
+3) biodb, github (add nichenetr) and future packages were copied from Jonas Schrepping's docker system.
+
+#2.
 
 
 
