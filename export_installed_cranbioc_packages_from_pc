@@ -1,0 +1,36 @@
+
+installed = as.data.frame(installed.packages())
+installed = subset(installed, Built == "4.1.2")
+
+# check if they are in cran
+CRANpackages <- available.packages() %>% 
+  as.data.frame() %>% 
+  select(Package) %>% 
+  mutate(source = 'CRAN')
+
+# biocmanager packages
+
+library(dplyr)
+library(rvest)
+
+url <- 'https://www.bioconductor.org/packages/release/bioc/'
+biocPackages <- url %>% 
+  rvest::read_html() %>% 
+  rvest::html_table() %>%
+  .[[1]] %>%
+  select(Package) %>% 
+  mutate(source = 'BioConductor')
+
+all_packages <- bind_rows(CRANpackages, biocPackages) 
+rownames(all_packages) <- NULL
+
+installed_CranBioc = installed[intersect(all_packages$Package,installed$Package),]
+
+## generate a file for dockerfile
+## r4.1.2 works well with bioc v3.14
+installed_CranBioc$docker = paste0("devtools::install_version(\"",installed_CranBioc$Package,"\",version=\"",installed_CranBioc$Version,"\",","repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) \n",sep="")
+write.table(capture.output(cat(installed_CranBioc$docker),file = "/home/yu.j/Desktop/rstudio4.1.2//cran.txt"))
+
+write.table(installed_CranBioc[,c("Package","Version")],file = "/home/yu.j/Desktop/rstudio4.1.2/installed_CranBioc.txt")
+
+installed_tmp = installed[setdiff(installed$Package,all_packages$Package),]
