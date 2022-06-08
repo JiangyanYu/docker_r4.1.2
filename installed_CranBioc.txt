@@ -1,0 +1,1199 @@
+"Package" "LibPath" "Version" "Priority" "Depends" "Imports" "LinkingTo" "Suggests" "Enhances" "License" "License_is_FOSS" "License_restricts_use" "OS_type" "MD5sum" "NeedsCompilation" "Built" "docker"
+"abind" "abind" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4-5" NA "R (>= 1.5.0)" "methods, utils" NA NA NA "LGPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"abind\",version=\"1.4-5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Amelia" "Amelia" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.0" NA "R (>= 3.0.2), Rcpp (>= 0.11)" "foreign, utils, grDevices, graphics, methods, stats" "Rcpp (>= 0.11), RcppArmadillo" "tcltk, Zelig, rmarkdown, knitr" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Amelia\",version=\"1.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ape" "ape" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "5.6-2" NA "R (>= 3.2.0)" "nlme, lattice, graphics, methods, stats, tools, utils,
+parallel, Rcpp (>= 0.12.0)" "Rcpp" "gee, expm, igraph, phangorn" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ape\",version=\"5.6-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"aplot" "aplot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.3" NA NA "ggfun (>= 0.0.4), ggplot2, ggplotify, patchwork, magrittr,
+methods, utils, yulab.utils" NA "ggtree" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"aplot\",version=\"0.1.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"assertthat" "assertthat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.1" NA NA "tools" NA "testthat, covr" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"assertthat\",version=\"0.2.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"backports" "backports" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.1" NA "R (>= 3.0.0)" NA NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"backports\",version=\"1.4.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"beeswarm" "beeswarm" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.0" NA NA "stats, graphics, grDevices, utils" NA NA NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"beeswarm\",version=\"0.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BH" "BH" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.78.0-0" NA NA NA NA NA NA "BSL-1.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"BH\",version=\"1.78.0-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocManager" "BiocManager" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.30.16" NA NA "utils" NA "BiocVersion, remotes, rmarkdown, testthat, withr, curl, knitr" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"BiocManager\",version=\"1.30.16\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"bit" "bit" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.0.4" NA "R (>= 2.9.2)" NA NA "testthat (>= 0.11.0), roxygen2, knitr, rmarkdown,
+microbenchmark, bit64 (>= 4.0.0), ff (>= 4.0.0)" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"bit\",version=\"4.0.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"bit64" "bit64" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.0.5" NA "R (>= 3.0.1), bit (>= 4.0.0), utils, methods, stats" NA NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"bit64\",version=\"4.0.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"bitops" "bitops" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-7" NA NA NA NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"bitops\",version=\"1.0-7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"blob" "blob" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.2" NA NA "methods, rlang, vctrs (>= 0.2.1)" NA "covr, crayon, pillar (>= 1.2.1), testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"blob\",version=\"1.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Boruta" "Boruta" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "7.0.0" NA NA "ranger" NA "mlbench, rFerns, randomForest, testthat, xgboost, survival" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"Boruta\",version=\"7.0.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"brew" "brew" "/usr/local/lib/R/site-library" "1.0-7" NA NA NA NA "testthat" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"brew\",version=\"1.0-7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"brio" "brio" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.3" NA NA NA NA "covr, testthat (>= 2.1.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"brio\",version=\"1.1.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"broom" "broom" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.8.0" NA "R (>= 3.1)" "backports, dplyr (>= 1.0.0), ellipsis, generics (>= 0.0.2),
+glue, methods, purrr, rlang, stringr, tibble (>= 3.0.0), tidyr
+(>= 1.0.0), ggplot2" NA "AER, akima, AUC, bbmle, betareg, biglm, binGroup, boot,
+btergm (>= 1.10.6), car, caret, cluster, cmprsk, coda, covr,
+drc, e1071, emmeans, epiR, ergm (>= 3.10.4), fixest (>= 0.9.0),
+gam (>= 1.15), gee, geepack, glmnet, glmnetUtils, gmm, Hmisc,
+irlba, joineRML, Kendall, knitr, ks, Lahman, lavaan, leaps,
+lfe, lm.beta, lme4, lmodel2, lmtest (>= 0.9.38), lsmeans, maps,
+maptools, margins, MASS, Matrix, mclust, mediation, metafor,
+mfx, mgcv, mlogit, modeldata, modeltests, muhaz, multcomp,
+network, nnet, orcutt (>= 2.2), ordinal, plm, poLCA, psych,
+quantreg, rgeos, rmarkdown, robust, robustbase, rsample,
+sandwich, sp, spdep (>= 1.1), spatialreg, speedglm, spelling,
+survey, survival, systemfit, testthat (>= 2.1.0), tseries,
+vars, zoo" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"broom\",version=\"0.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"bslib" "bslib" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.1" NA "R (>= 2.10)" "grDevices, htmltools (>= 0.5.2), jsonlite, sass (>= 0.4.0),
+jquerylib (>= 0.1.3), rlang" NA "shiny (>= 1.6.0), rmarkdown (>= 2.7), thematic, knitr,
+testthat, withr, rappdirs, curl, magrittr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"bslib\",version=\"0.3.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"callr" "callr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.7.0" NA NA "processx (>= 3.5.0), R6, utils" NA "cli, covr, ps, rprojroot, spelling, testthat, withr (>=
+2.3.0)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"callr\",version=\"3.7.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"car" "car" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.0-12" NA "R (>= 3.5.0), carData (>= 3.0-0)" "abind, MASS, mgcv, nnet, pbkrtest (>= 0.4-4), quantreg,
+grDevices, utils, stats, graphics, maptools, lme4 (>=
+1.1-27.1), nlme" NA "alr4, boot, coxme, effects, knitr, leaps, lmtest, Matrix,
+MatrixModels, rgl (>= 0.93.960), rio, sandwich, SparseM,
+survival, survey" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"car\",version=\"3.0-12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"carData" "carData" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.0-5" NA "R (>= 3.5.0)" NA NA "car (>= 3.0-0)" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"carData\",version=\"3.0-5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"caTools" "caTools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.18.2" NA "R (>= 3.6.0)" "bitops" NA "MASS, rpart" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"caTools\",version=\"1.18.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"cellranger" "cellranger" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.0" NA "R (>= 3.0.0)" "rematch, tibble" NA "covr, testthat (>= 1.0.0), knitr, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"cellranger\",version=\"1.1.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"circlize" "circlize" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.14" NA "R (>= 3.0.0), graphics" "GlobalOptions (>= 0.1.2), shape, grDevices, utils, stats,
+colorspace, methods, grid" NA "knitr, dendextend (>= 1.0.1), ComplexHeatmap (>= 2.0.0),
+gridBase, png, markdown, bezier, covr, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"circlize\",version=\"0.4.14\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"class" "class" "/usr/lib/R/library" "7.3-20" "recommended" "R (>= 3.0.0), stats, utils" "MASS" NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"class\",version=\"7.3-20\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"classInt" "classInt" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4-3" NA "R (>= 2.2)" "grDevices, stats, graphics, e1071, class, KernSmooth" NA "spData (>= 0.2.6.2), units, knitr, rmarkdown" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"classInt\",version=\"0.4-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"cli" "cli" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.2.0" NA "R (>= 2.10)" "glue (>= 1.6.0), utils" NA "asciicast, callr, covr, digest, grDevices, htmltools,
+htmlwidgets, knitr, methods, mockery, processx, ps (>=
+1.3.4.9000), rlang, rmarkdown, rstudioapi, shiny, testthat,
+tibble, whoami, withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"cli\",version=\"3.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"clue" "clue" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3-60" NA "R (>= 3.2.0)" "stats, cluster, graphics, methods" NA "e1071, lpSolve (>= 5.5.7), quadprog (>= 1.4-8), relations" "RWeka, ape, cba, cclust, flexclust, flexmix, kernlab, mclust,
+movMF, modeltools" "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"clue\",version=\"0.3-60\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"colorspace" "colorspace" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0-3" NA "R (>= 3.0.0), methods" "graphics, grDevices, stats" NA "datasets, utils, KernSmooth, MASS, kernlab, mvtnorm, vcd,
+tcltk, shiny, shinyjs, ggplot2, dplyr, scales, grid, png, jpeg,
+knitr, rmarkdown, RColorBrewer, rcartocolor, scico, viridis,
+wesanderson" NA "BSD_3_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"colorspace\",version=\"2.0-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"combinat" "combinat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.0-8" NA NA NA NA NA NA "GPL-2" NA NA NA NA NA "4.1.2" "devtools::install_version(\"combinat\",version=\"0.0-8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"commonmark" "commonmark" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.0" NA NA NA NA "curl, testthat, xml2" NA "BSD_2_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"commonmark\",version=\"1.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"corrplot" "corrplot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.92" NA NA NA NA "seriation, knitr, RColorBrewer, rmarkdown, magrittr,
+prettydoc, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"corrplot\",version=\"0.92\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"cowplot" "cowplot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA "R (>= 3.5.0)" "ggplot2 (> 2.2.1), grid, gtable, grDevices, methods, rlang,
+scales" NA "Cairo, covr, dplyr, forcats, gridGraphics (>= 0.4-0), knitr,
+lattice, magick, maps, PASWR, patchwork, rmarkdown, ragg,
+testthat (>= 1.0.0), tidyr, vdiffr (>= 0.3.0), VennDiagram" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"cowplot\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"cpp11" "cpp11" "/usr/lib/R/site-library" "0.4.2" NA NA NA NA "bench, brio, callr, cli, covr, decor, desc, ggplot2, glue,
+knitr, lobstr, mockery, progress, rmarkdown, scales, Rcpp,
+testthat, tibble, utils, vctrs, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"cpp11\",version=\"0.4.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"crayon" "crayon" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.1" NA NA "grDevices, methods, utils" NA "mockery, rstudioapi, testthat, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"crayon\",version=\"1.5.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"credentials" "credentials" "/usr/lib/R/site-library" "1.3.2" NA NA "openssl (>= 1.3), sys (>= 2.1), curl, jsonlite, askpass" NA "testthat, knitr, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"credentials\",version=\"1.3.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"crosstalk" "crosstalk" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0" NA NA "htmltools (>= 0.3.6), jsonlite, lazyeval, R6" NA "shiny, ggplot2, testthat (>= 2.1.0), sass, bslib" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"crosstalk\",version=\"1.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"data.table" "data.table" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.14.2" NA "R (>= 3.1.0)" "methods" NA "bit64 (>= 4.0.0), bit (>= 4.0.4), curl, R.utils, xts,
+nanotime, zoo (>= 1.8-1), yaml, knitr, rmarkdown" NA "MPL-2.0 | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"data.table\",version=\"1.14.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DBI" "DBI" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.2" NA "methods, R (>= 3.0.0)" NA NA "blob, covr, DBItest, dbplyr, downlit, dplyr, glue, hms,
+knitr, magrittr, RMariaDB, rmarkdown, rprojroot, RSQLite (>=
+1.1-2), testthat, xml2" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"DBI\",version=\"1.1.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"dbplyr" "dbplyr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1.1" NA "R (>= 3.1)" "assertthat (>= 0.2.0), blob (>= 1.2.0), DBI (>= 1.0.0), dplyr
+(>= 1.0.4), ellipsis, glue (>= 1.2.0), lifecycle (>= 1.0.0),
+magrittr, methods, purrr (>= 0.2.5), R6 (>= 2.2.2), rlang (>=
+0.2.0), tibble (>= 1.4.2), tidyselect (>= 0.2.4), utils, vctrs,
+withr" NA "bit64, covr, knitr, Lahman, nycflights13, odbc, RMariaDB (>=
+1.0.2), rmarkdown, RPostgres (>= 1.1.3), RPostgreSQL, RSQLite
+(>= 2.1.0), testthat (>= 3.0.2), tidyr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"dbplyr\",version=\"2.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"dbscan" "dbscan" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-10" NA NA "Rcpp (>= 1.0.0), graphics, stats" "Rcpp" "fpc, microbenchmark, testthat, dendextend, igraph, knitr,
+rmarkdown" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"dbscan\",version=\"1.1-10\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DDRTree" "DDRTree" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.5" NA "irlba" "Rcpp" "Rcpp, RcppEigen, BH" NA NA "Artistic License 2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"DDRTree\",version=\"0.1.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"deldir" "deldir" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-6" NA "R (>= 3.5.0)" "graphics, grDevices" NA "polyclip" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"deldir\",version=\"1.0-6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"densityClust" "densityClust" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.2" NA NA "Rcpp, FNN, Rtsne, ggplot2, ggrepel, grDevices, gridExtra,
+RColorBrewer" "Rcpp" "testthat, covr" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"densityClust\",version=\"0.3.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DEoptimR" "DEoptimR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-11" NA NA "stats" NA NA "robustbase" "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"DEoptimR\",version=\"1.0-11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"desc" "desc" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.1" NA "R (>= 3.4)" "cli, R6, rprojroot, utils" NA "callr, covr, gh, spelling, testthat, whoami, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"desc\",version=\"1.4.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"devtools" "devtools" "/usr/lib/R/site-library" "2.4.3" NA "R (>= 3.0.2), usethis (>= 2.0.1)" "callr (>= 3.6.0), cli (>= 3.0.0), desc (>= 1.3.0), ellipsis
+(>= 0.3.1), fs (>= 1.5.0), httr (>= 1.4.2), lifecycle (>=
+1.0.0), memoise (>= 2.0.0), pkgbuild (>= 1.2.0), pkgload (>=
+1.2.1), rcmdcheck (>= 1.3.3), remotes (>= 2.3.0), rlang (>=
+0.4.10), roxygen2 (>= 7.1.1), rstudioapi (>= 0.13), rversions
+(>= 2.0.2), sessioninfo (>= 1.1.1), stats, testthat (>= 3.0.2),
+tools, utils, withr (>= 2.4.1)" NA "BiocManager (>= 1.30.12), covr (>= 3.5.1), curl (>= 4.3),
+digest (>= 0.6.27), DT (>= 0.17), foghorn (>= 1.3.2), gh (>=
+1.2.1), gmailr (>= 1.0.0), knitr (>= 1.31), lintr (>= 2.0.1),
+MASS, mockery (>= 0.4.2), pingr (>= 2.0.1), pkgdown (>= 1.6.1),
+rhub (>= 1.1.1), rmarkdown (>= 2.7), spelling (>= 2.2)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"devtools\",version=\"2.4.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"dichromat" "dichromat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0-0" NA "R (>= 2.10), stats" NA NA NA NA "GPL-2" NA NA NA NA NA "4.1.2" "devtools::install_version(\"dichromat\",version=\"2.0-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"diffobj" "diffobj" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.5" NA "R (>= 3.1.0)" "crayon (>= 1.3.2), tools, methods, utils, stats" NA "knitr, rmarkdown" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"diffobj\",version=\"0.3.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"digest" "digest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.6.29" NA "R (>= 3.3.0)" "utils" NA "tinytest, simplermarkdown" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"digest\",version=\"0.6.29\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"distr" "distr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.8.0" NA "R(>= 2.14.0), methods, graphics, startupmsg, sfsmisc" "stats, grDevices, utils, MASS" NA "distrEx, svUnit (>= 0.7-11), knitr" NA "LGPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"distr\",version=\"2.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"docopt" "docopt" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.7.1" NA NA "methods" NA "testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"docopt\",version=\"0.7.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"doParallel" "doParallel" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.17" NA "R (>= 2.14.0), foreach (>= 1.2.0), iterators (>= 1.0.0),
+parallel, utils" NA NA "caret, mlbench, rpart, RUnit" "compiler" "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"doParallel\",version=\"1.0.17\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"downloader" "downloader" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4" NA NA "utils, digest" NA "testthat" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"downloader\",version=\"0.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"dplyr" "dplyr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.8" NA "R (>= 3.4.0)" "generics, glue (>= 1.3.2), lifecycle (>= 1.0.1), magrittr (>=
+1.5), methods, R6, rlang (>= 1.0.0), tibble (>= 2.1.3),
+tidyselect (>= 1.1.1), utils, vctrs (>= 0.3.5), pillar (>=
+1.5.1)" NA "bench, broom, callr, covr, DBI, dbplyr (>= 1.4.3), ggplot2,
+knitr, Lahman, lobstr, microbenchmark, nycflights13, purrr,
+rmarkdown, RMySQL, RPostgreSQL, RSQLite, testthat (>= 3.1.1),
+tidyr, withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"dplyr\",version=\"1.0.8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"dqrng" "dqrng" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.0" NA "R (>= 3.1.0)" "Rcpp (>= 0.12.16)" "Rcpp, BH (>= 1.64.0-1), sitmo (>= 2.0.0)" "testthat, knitr, rmarkdown" NA "AGPL-3 | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"dqrng\",version=\"0.3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DT" "DT" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.22" NA NA "htmltools (>= 0.3.6), htmlwidgets (>= 1.3), jsonlite (>=
+0.9.16), magrittr, crosstalk, jquerylib, promises" NA "knitr (>= 1.8), rmarkdown, shiny (>= 1.6), bslib, testit" NA "GPL-3 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"DT\",version=\"0.22\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"e1071" "e1071" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.7-9" NA NA "graphics, grDevices, class, stats, methods, utils, proxy" NA "cluster, mlbench, nnet, randomForest, rpart, SparseM, xtable,
+Matrix, MASS, slam" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"e1071\",version=\"1.7-9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ellipsis" "ellipsis" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.2" NA "R (>= 3.2)" "rlang (>= 0.3.0)" NA "covr, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ellipsis\",version=\"0.3.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"enrichR" "enrichR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.0" NA "R (>= 3.0.0)" "httr, rjson, ggplot2" NA "knitr, rmarkdown" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"enrichR\",version=\"3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"evaluate" "evaluate" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.15" NA "R (>= 3.0.2)" "methods" NA "covr, ggplot2, lattice, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"evaluate\",version=\"0.15\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fansi" "fansi" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.3" NA "R (>= 3.1.0)" "grDevices, utils" NA "unitizer, knitr, rmarkdown" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fansi\",version=\"1.0.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fastICA" "fastICA" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2-3" NA "R (>= 4.0.0)" NA NA "MASS" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fastICA\",version=\"1.2-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fastmatch" "fastmatch" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-3" NA "R (>= 2.3.0)" NA NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fastmatch\",version=\"1.1-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"filelock" "filelock" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.2" NA NA NA NA "callr (>= 2.0.0), covr, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"filelock\",version=\"1.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fitdistrplus" "fitdistrplus" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-8" NA "R (>= 3.5.0), MASS, grDevices, survival, methods" "stats" NA "actuar, rgenoud, mc2d, gamlss.dist, knitr, ggplot2,
+GeneralizedHyperbolic, rmarkdown, Hmisc" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"fitdistrplus\",version=\"1.1-8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"FNN" "FNN" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.3" NA "R (>= 3.0.0)" NA NA "chemometrics, mvtnorm" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"FNN\",version=\"1.1.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fontawesome" "fontawesome" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.2" NA "R (>= 3.3.0)" "rlang (>= 0.4.10), htmltools (>= 0.5.1.1)" NA "covr, knitr, testthat, rsvg" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"fontawesome\",version=\"0.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"forcats" "forcats" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5.1" NA "R (>= 3.2)" "ellipsis, magrittr, rlang, tibble" NA "covr, dplyr, ggplot2, knitr, readr, rmarkdown, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"forcats\",version=\"0.5.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"foreach" "foreach" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.2" NA "R (>= 2.5.0)" "codetools, utils, iterators" NA "randomForest, doMC, doParallel, testthat, knitr, rmarkdown" NA "Apache License (== 2.0)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"foreach\",version=\"1.5.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"forecast" "forecast" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "8.16" NA "R (>= 3.0.2)," "colorspace, fracdiff, ggplot2 (>= 2.2.1), graphics, lmtest,
+magrittr, nnet, parallel, Rcpp (>= 0.11.0), stats, timeDate,
+tseries, urca, zoo" "Rcpp (>= 0.11.0), RcppArmadillo (>= 0.2.35)" "forecTheta, knitr, methods, rmarkdown, rticles, seasonal,
+testthat, uroot" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"forecast\",version=\"8.16\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"foreign" "foreign" "/usr/lib/R/library" "0.8-82" "recommended" "R (>= 4.0.0)" "methods, utils, stats" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"foreign\",version=\"0.8-82\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"formatR" "formatR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.12" NA "R (>= 3.2.3)" NA NA "rstudioapi, shiny, testit, rmarkdown, knitr" NA "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"formatR\",version=\"1.12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fracdiff" "fracdiff" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5-1" NA NA "stats" NA "longmemo, forecast, urca" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fracdiff\",version=\"1.5-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fs" "fs" "/usr/lib/R/site-library" "1.5.2" NA "R (>= 3.1)" "methods" NA "testthat, covr, pillar (>= 1.0.0), tibble (>= 1.1.0), crayon,
+rmarkdown, knitr, withr, spelling, vctrs (>= 0.3.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fs\",version=\"1.5.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"furrr" "furrr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.3" NA "future (>= 1.19.1), R (>= 3.2.0)" "ellipsis, globals (>= 0.13.1), lifecycle (>= 1.0.0), purrr (>=
+0.3.0), rlang (>= 0.3.0), vctrs (>= 0.3.2)" NA "carrier, covr, dplyr (>= 0.7.4), knitr, listenv (>= 0.6.0),
+magrittr, rmarkdown, testthat (>= 3.0.0), withr, tidyselect" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"furrr\",version=\"0.2.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"futile.logger" "futile.logger" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.3" NA "R (>= 3.0.0)" "utils, lambda.r (>= 1.1.0), futile.options" NA "testthat, jsonlite" NA "LGPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"futile.logger\",version=\"1.4.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"futile.options" "futile.options" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.1" NA "R (>= 2.8.0)" NA NA NA NA "LGPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"futile.options\",version=\"1.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"future" "future" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.24.0" NA NA "digest, globals (>= 0.14.0), listenv (>= 0.8.0), parallel,
+parallelly (>= 1.30.0), tools, utils" NA "RhpcBLASctl, R.rsp, markdown" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"future\",version=\"1.24.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"future.apply" "future.apply" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.1" NA "R (>= 3.2.0), future (>= 1.21.0)" "globals (>= 0.14.0), parallel, utils" NA "datasets, stats, tools, listenv (>= 0.8.0), R.rsp, markdown" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"future.apply\",version=\"1.8.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"generics" "generics" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.2" NA "R (>= 3.2)" "methods" NA "covr, pkgload, testthat (>= 3.0.0), tibble, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"generics\",version=\"0.1.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gert" "gert" "/usr/lib/R/site-library" "1.5.0" NA NA "askpass, credentials (>= 1.2.1), openssl (>= 1.4.1),
+rstudioapi (>= 0.11), sys, zip (>= 2.1.0)" NA "spelling, knitr, rmarkdown, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"gert\",version=\"1.5.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GetoptLong" "GetoptLong" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.5" NA "R (>= 3.3.0)" "rjson, GlobalOptions (>= 0.1.0), methods, crayon" NA "testthat (>= 1.0.0), knitr, markdown, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"GetoptLong\",version=\"1.0.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggbeeswarm" "ggbeeswarm" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.6.0" NA "R (>= 3.0.0), ggplot2 (>= 2.0)" "beeswarm, vipor" NA "gridExtra" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggbeeswarm\",version=\"0.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggdendro" "ggdendro" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.23" NA NA "MASS, ggplot2(>= 0.9.2)" NA "rpart (>= 4.0-0), tree, testthat, knitr, cluster, scales,
+spelling, rmarkdown, covr" NA "GPL-2 | GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggdendro\",version=\"0.1.23\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggforce" "ggforce" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.3" NA "ggplot2 (>= 3.0.0), R (>= 3.3.0)" "Rcpp (>= 0.12.2), grid, scales, MASS, tweenr (>= 0.1.5),
+gtable, rlang, polyclip, stats, grDevices, tidyselect, withr,
+utils" "Rcpp, RcppEigen" "sessioninfo, concaveman, deldir, reshape2, units (>= 0.4-6),
+covr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ggforce\",version=\"0.3.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggfun" "ggfun" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.0.6" NA NA "ggplot2, grid, rlang, utils" NA "ggplotify, knitr, rmarkdown, prettydoc" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggfun\",version=\"0.0.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggplot2" "ggplot2" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.3.5" NA "R (>= 3.3)" "digest, glue, grDevices, grid, gtable (>= 0.1.1), isoband,
+MASS, mgcv, rlang (>= 0.4.10), scales (>= 0.5.0), stats,
+tibble, withr (>= 2.0.0)" NA "covr, ragg, dplyr, ggplot2movies, hexbin, Hmisc, interp,
+knitr, lattice, mapproj, maps, maptools, multcomp, munsell,
+nlme, profvis, quantreg, RColorBrewer, rgeos, rmarkdown, rpart,
+sf (>= 0.7-3), svglite (>= 1.2.0.9001), testthat (>= 2.1.0),
+vdiffr (>= 1.0.0), xml2" "sp" "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggplot2\",version=\"3.3.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggplotify" "ggplotify" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.0" NA "R (>= 3.4.0)" "ggplot2, graphics, grDevices, grid, gridGraphics, yulab.utils" NA "aplot, colorspace, cowplot, ggimage, knitr, rmarkdown,
+lattice, prettydoc, vcd, utils" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggplotify\",version=\"0.1.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggpubr" "ggpubr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.0" NA "R (>= 3.1.0), ggplot2" "ggrepel, grid, ggsci, stats, utils, tidyr, purrr, dplyr (>=
+0.7.1), cowplot, ggsignif, scales, gridExtra, glue, polynom,
+rlang, rstatix (>= 0.6.0), tibble, magrittr" NA "grDevices, knitr, RColorBrewer, gtable" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggpubr\",version=\"0.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggraph" "ggraph" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.5" NA "R (>= 2.10), ggplot2 (>= 3.0.0)" "Rcpp (>= 0.12.2), dplyr, ggforce (>= 0.3.1), grid, igraph (>=
+1.0.0), scales, MASS, digest, gtable, ggrepel, utils, stats,
+viridis, rlang, tidygraph, graphlayouts (>= 0.5.0), withr" "Rcpp" "network, knitr, rmarkdown, purrr, tibble, seriation, deldir,
+gganimate, covr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ggraph\",version=\"2.0.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggrepel" "ggrepel" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9.1" NA "R (>= 3.0.0), ggplot2 (>= 2.2.0)" "grid, Rcpp, rlang (>= 0.3.0), scales (>= 0.5.0)" "Rcpp" "knitr, rmarkdown, testthat, gridExtra, devtools, prettydoc,
+ggbeeswarm, dplyr, magrittr, readr, stringr" NA "GPL-3 | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ggrepel\",version=\"0.9.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggridges" "ggridges" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5.3" NA "R (>= 3.2)" "ggplot2 (>= 3.0.0), grid (>= 3.0.0), plyr (>= 1.8.0), scales
+(>= 0.4.1), withr (>= 2.1.1)" NA "covr, dplyr, patchwork, ggplot2movies, forcats, knitr,
+rmarkdown, testthat, vdiffr" NA "GPL-2 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggridges\",version=\"0.5.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggsci" "ggsci" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.9" NA "R (>= 3.0.2)" "grDevices, scales, ggplot2 (>= 2.0.0)" NA "knitr, rmarkdown, gridExtra, reshape2" NA "GPL-3 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggsci\",version=\"2.9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggsignif" "ggsignif" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.6.3" NA NA "ggplot2 (>= 3.3.5)" NA "knitr, rmarkdown, spelling, testthat, vdiffr (>= 1.0.2)" NA "GPL-3 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggsignif\",version=\"0.6.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggtext" "ggtext" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.1" NA "R (>= 3.5)" "ggplot2 (>= 3.3.0), grid, gridtext, rlang, scales" NA "cowplot, dplyr, glue, knitr, rmarkdown, testthat, vdiffr" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggtext\",version=\"0.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GlobalOptions" "GlobalOptions" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.2" NA "R (>= 3.3.0), methods" "utils" NA "testthat (>= 1.0.0), knitr, markdown, GetoptLong" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"GlobalOptions\",version=\"0.1.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"globals" "globals" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.14.0" NA "R (>= 3.1.2)" "codetools" NA NA NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"globals\",version=\"0.14.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"glue" "glue" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6.2" NA "R (>= 3.4)" "methods" NA "covr, crayon, DBI, dplyr, forcats, ggplot2, knitr, magrittr,
+microbenchmark, R.utils, rmarkdown, rprintf, RSQLite, stringr,
+testthat (>= 3.0.0), vctrs (>= 0.3.0), waldo (>= 0.3.0), withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"glue\",version=\"1.6.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"goftest" "goftest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2-3" NA "R (>= 3.3)" "stats" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"goftest\",version=\"1.2-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gower" "gower" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.0" NA NA NA NA "tinytest (>= 0.9.3)," NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"gower\",version=\"1.0.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gplots" "gplots" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.1.1" NA "R (>= 3.0)" "gtools, stats, caTools, KernSmooth" NA "grid, MASS, knitr" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"gplots\",version=\"3.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"graphlayouts" "graphlayouts" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.8.0" NA "R (>= 3.2.0)" "igraph, Rcpp" "Rcpp, RcppArmadillo" "oaqc, testthat, ggraph, ggplot2, knitr, rmarkdown, uwot" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"graphlayouts\",version=\"0.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gridExtra" "gridExtra" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.3" NA NA "gtable, grid, grDevices, graphics, utils" NA "ggplot2, egg, lattice, knitr, testthat" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"gridExtra\",version=\"2.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gridGraphics" "gridGraphics" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5-1" NA "grid, graphics" "grDevices" NA "magick (>= 1.3), pdftools (>= 1.6)" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"gridGraphics\",version=\"0.5-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gridtext" "gridtext" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.4" NA "R (>= 3.5)" "grid, grDevices, markdown, rlang, Rcpp, RCurl, png, jpeg,
+stringr, xml2" "Rcpp" "covr, knitr, rmarkdown, testthat, vdiffr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"gridtext\",version=\"0.1.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"grr" "grr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9.5" NA "R (>= 3.0.0)" NA NA NA NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"grr\",version=\"0.9.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gtable" "gtable" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.0" NA "R (>= 3.0)" "grid" NA "covr, testthat, knitr, rmarkdown, ggplot2, profvis" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"gtable\",version=\"0.3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"gtools" "gtools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.9.2" NA "methods, stats, utils" NA NA "car, gplots, knitr, rstudioapi, SGP, taxize" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"gtools\",version=\"3.9.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"hdf5r" "hdf5r" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.3.5" NA "R (>= 3.2.2), methods" "R6, bit64, utils" NA "testthat, knitr, rmarkdown, nycflights13, reshape2, formatR," NA "Apache License 2.0 | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"hdf5r\",version=\"1.3.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"here" "here" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.1" NA NA "rprojroot (>= 2.0.2)" NA "conflicted, covr, fs, knitr, palmerpenguins, plyr, readr,
+rlang, rmarkdown, testthat, uuid, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"here\",version=\"1.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"hms" "hms" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA NA "ellipsis (>= 0.3.2), lifecycle, methods, pkgconfig, rlang,
+vctrs (>= 0.3.8)" NA "crayon, lubridate, pillar (>= 1.1.0), testthat (>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"hms\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"htmltools" "htmltools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5.2" NA "R (>= 2.14.1)" "utils, digest, grDevices, base64enc, rlang (>= 0.4.10),
+fastmap" NA "markdown, testthat, withr, Cairo, ragg, shiny" "knitr" "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"htmltools\",version=\"0.5.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"htmlwidgets" "htmlwidgets" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.4" NA NA "grDevices, htmltools (>= 0.3), jsonlite (>= 0.9.16), yaml" NA "knitr (>= 1.8), rmarkdown, testthat" "shiny (>= 1.1)" "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"htmlwidgets\",version=\"1.5.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"httpuv" "httpuv" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6.5" NA "R (>= 2.15.1)" "Rcpp (>= 1.0.7), utils, R6, promises, later (>= 0.8.0)" "Rcpp, later" "testthat, callr, curl, websocket" NA "GPL (>= 2) | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"httpuv\",version=\"1.6.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ica" "ica" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-2" NA NA NA NA NA NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ica\",version=\"1.0-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"igraph" "igraph" "/usr/lib/R/site-library" "1.2.11" NA "methods" "graphics, grDevices, magrittr, Matrix, pkgconfig (>= 2.0.0),
+stats, utils" NA "ape, graph, igraphdata, rgl, scales, stats4, tcltk, testthat,
+withr, digest" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"igraph\",version=\"1.2.11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"imputeTS" "imputeTS" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.2" NA "R (>= 3.0.1)" "stats, grDevices, ggplot2 (>= 3.3.0), ggtext, stinepack,
+forecast, magrittr, Rcpp" "Rcpp" "testthat, R.rsp, knitr, zoo, timeSeries, tis, xts, tibble,
+tsibble, rmarkdown" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"imputeTS\",version=\"3.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"installr" "installr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.23.2" NA "R (>= 2.14.0)" "stringr, utils" NA "curl, XML, devtools, rjson, data.table, plyr, ggplot2, sp,
+tools, pkgbuild (>= 1.1.0), testthat (>= 2.1.0), mockery,
+R.utils" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"installr\",version=\"0.23.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"irlba" "irlba" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.3.5" NA "R (>= 3.6.2), Matrix" "stats, methods" "Matrix" NA NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"irlba\",version=\"2.3.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"isoband" "isoband" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.5" NA NA "grid, utils" NA "covr, ggplot2, knitr, magick, microbenchmark, rmarkdown, sf,
+testthat, xml2" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"isoband\",version=\"0.2.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"iterators" "iterators" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.14" NA "R (>= 2.5.0), utils" NA NA "RUnit, foreach" NA "Apache License (== 2.0)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"iterators\",version=\"1.0.14\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"jpeg" "jpeg" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1-9" NA "R (>= 2.9.0)" NA NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"jpeg\",version=\"0.1-9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"jsonlite" "jsonlite" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.0" NA "methods" NA NA "httr, curl, vctrs, testthat, knitr, rmarkdown, R.rsp, sf" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"jsonlite\",version=\"1.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"kernlab" "kernlab" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9-30" NA "R (>= 2.10)" "methods, stats, grDevices, graphics" NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"kernlab\",version=\"0.9-30\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"knitr" "knitr" "/usr/lib/R/site-library" "1.37" NA "R (>= 3.2.3)" "evaluate (>= 0.10), highr, methods, stringr (>= 0.6), yaml (>=
+2.1.19), xfun (>= 0.27), tools" NA "markdown, formatR, testit, digest, rgl (>= 0.95.1201),
+codetools, rmarkdown, htmlwidgets (>= 0.7), webshot, tikzDevice
+(>= 0.10), tinytex, reticulate (>= 1.4), JuliaCall (>= 0.11.1),
+magick, png, jpeg, gifski, xml2 (>= 1.2.0), httr, DBI (>=
+0.4-1), showtext, tibble, sass, bslib, ragg, styler (>= 1.2.0),
+targets (>= 0.6.0)" NA "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"knitr\",version=\"1.37\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"labeling" "labeling" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.2" NA NA "stats, graphics" NA NA NA "MIT + file LICENSE | Unlimited" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"labeling\",version=\"0.4.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lambda.r" "lambda.r" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.4" NA "R (>= 3.0.0)" "formatR" NA "testit" NA "LGPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"lambda.r\",version=\"1.2.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"later" "later" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.3.0" NA NA "Rcpp (>= 0.12.9), rlang" "Rcpp" "knitr, rmarkdown, testthat (>= 2.1.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"later\",version=\"1.3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lazyeval" "lazyeval" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.2" NA "R (>= 3.1.0)" NA NA "knitr, rmarkdown (>= 0.2.65), testthat, covr" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"lazyeval\",version=\"0.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"leiden" "leiden" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.9" NA NA "methods, reticulate, Matrix, igraph" NA "bipartite, covr, data.table, devtools, graphsim, knitr,
+multiplex, multinet, markdown, network, RColorBrewer,
+rmarkdown, spelling, testthat, tibble" NA "GPL-3 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"leiden\",version=\"0.3.9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"leidenbase" "leidenbase" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.11" NA "R (>= 3.5.0)" "igraph (>= 0.8.2)" NA "rmarkdown, knitr, testthat (>= 3.1.0)" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"leidenbase\",version=\"0.1.11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lifecycle" "lifecycle" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.1" NA "R (>= 3.3)" "glue, rlang (>= 0.4.10)" NA "covr, crayon, lintr, tidyverse, knitr, rmarkdown, testthat
+(>= 3.0.1), tools, tibble, vctrs" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"lifecycle\",version=\"1.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"listenv" "listenv" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.8.0" NA "R (>= 3.1.2)" NA NA "R.utils, R.rsp, markdown" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"listenv\",version=\"0.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lme4" "lme4" "/usr/local/lib/R/site-library" "1.1-28" NA "R (>= 3.2.0), Matrix (>= 1.2-1), methods, stats" "graphics, grid, splines, utils, parallel, MASS, lattice, boot,
+nlme (>= 3.1-123), minqa (>= 1.1.15), nloptr (>= 1.0.4)" "Rcpp (>= 0.10.5), RcppEigen" "knitr, rmarkdown, PKPDmodels, MEMSS, testthat (>= 0.8.1),
+ggplot2, mlmRev, optimx (>= 2013.8.6), gamm4, pbkrtest, HSAUR3,
+numDeriv, car, dfoptim, mgcv, statmod, rr2, semEff, tibble" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"lme4\",version=\"1.1-28\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lmtest" "lmtest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9-40" NA "R (>= 3.0.0), stats, zoo" "graphics" NA "car, strucchange, sandwich, dynlm, stats4, survival, AER" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"lmtest\",version=\"0.9-40\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"locfit" "locfit" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5-9.5" NA "R (>= 4.1.0)" "lattice" NA "interp, gam" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"locfit\",version=\"1.5-9.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"lpSolve" "lpSolve" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "5.6.15" NA NA NA NA NA NA "LGPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"lpSolve\",version=\"5.6.15\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"magick" "magick" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.7.3" NA NA "Rcpp (>= 0.12.12), magrittr, curl" "Rcpp" "av (>= 0.3), spelling, jsonlite, methods, knitr, rmarkdown,
+rsvg, webp, pdftools, ggplot2, gapminder, IRdisplay, tesseract
+(>= 2.0), gifski" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"magick\",version=\"2.7.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"magrittr" "magrittr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.3" NA "R (>= 3.4.0)" NA NA "covr, knitr, rlang, rmarkdown, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"magrittr\",version=\"2.0.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"manipulateWidget" "manipulateWidget" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.11.1" NA "R (>= 2.10)" "shiny (>= 1.0.3), miniUI, htmltools, htmlwidgets, knitr,
+methods, tools, base64enc, grDevices, codetools, webshot,
+shinyjs" NA "dygraphs, leaflet, plotly, xts, rmarkdown, testthat, covr" NA "GPL (>= 2) | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"manipulateWidget\",version=\"0.11.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mapproj" "mapproj" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.8" NA "R (>= 3.0.0), maps (>= 2.3-0)" "stats, graphics" NA NA NA "Lucent Public License" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mapproj\",version=\"1.2.8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"maps" "maps" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.4.0" NA "R (>= 3.5.0)" "graphics, utils" NA "mapproj (>= 1.2-0), mapdata (>= 2.3.0), sp, rnaturalearth" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"maps\",version=\"3.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"maptools" "maptools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-4" NA "R (>= 2.10), sp (>= 1.0-11)" "foreign (>= 0.8), methods, grid, lattice, stats, utils,
+grDevices" NA "rgeos (>= 0.1-8), spatstat.geom (>= 1.65-0), PBSmapping,
+maps, RColorBrewer, raster, polyclip, plotrix, spatstat.linnet
+(>= 1.65-3), spatstat.utils (>= 1.19.0), spatstat (>= 2.0-0)" "gpclib" "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"maptools\",version=\"1.1-4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"MASS" "MASS" "/usr/lib/R/library" "7.3-55" "recommended" "R (>= 3.3.0), grDevices, graphics, stats, utils" "methods" NA "lattice, nlme, nnet, survival" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"MASS\",version=\"7.3-55\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mathjaxr" "mathjaxr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6-0" NA NA NA NA "js" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mathjaxr\",version=\"1.6-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Matrix" "Matrix" "/usr/lib/R/library" "1.4-0" "recommended" "R (>= 3.5.0)" "methods, graphics, grid, stats, utils, lattice" NA "expm, MASS" "MatrixModels, graph, SparseM, sfsmisc, igraph, maptools, sp,
+spdep" "GPL (>= 2) | file LICENCE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Matrix\",version=\"1.4-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Matrix.utils" "Matrix.utils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9.8" NA "R (>= 3.0.0), Matrix" "grr, methods, stats" NA "testthat" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"Matrix.utils\",version=\"0.9.8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"MatrixModels" "MatrixModels" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5-0" NA "R (>= 3.0.1)" "stats, methods, Matrix (>= 1.1-5)" NA NA NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"MatrixModels\",version=\"0.5-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"matrixStats" "matrixStats" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.61.0" NA "R (>= 2.12.0)" NA NA "base64enc, ggplot2, knitr, markdown, microbenchmark,
+R.devices, R.rsp" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"matrixStats\",version=\"0.61.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"memoise" "memoise" "/usr/lib/R/site-library" "2.0.1" NA NA "rlang (>= 0.4.10), cachem" NA "digest, aws.s3, covr, googleAuthR, googleCloudStorageR, httr,
+testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"memoise\",version=\"2.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"metap" "metap" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8" NA "R (>= 3.5.0)" "lattice,Rdpack (>= 0.7),TFisher,mutoss,mathjaxr (>=
+0.8-3),qqconf" NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"metap\",version=\"1.8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mime" "mime" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.12" NA NA "tools" NA NA NA "GPL" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mime\",version=\"0.12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"miniUI" "miniUI" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.1.1" NA NA "shiny (>= 0.13), htmltools (>= 0.3), utils" NA NA NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"miniUI\",version=\"0.1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mitools" "mitools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.4" NA NA "DBI, methods, stats" NA "RODBC, foreign" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"mitools\",version=\"2.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mixtools" "mixtools" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0" NA "R (>= 3.5.0)" "kernlab, MASS, segmented, stats, survival" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mixtools\",version=\"1.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mltest" "mltest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.1" NA NA NA NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"mltest\",version=\"1.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mnormt" "mnormt" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.2" NA "R (>= 2.2.0)" "tmvnsim (>= 1.0-2)" NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mnormt\",version=\"2.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"multcomp" "multcomp" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4-18" NA "stats, graphics, mvtnorm (>= 1.0-10), survival (>= 2.39-4),
+TH.data (>= 1.0-2)" "sandwich (>= 2.3-0), codetools" NA "lme4 (>= 0.999375-16), nlme, robustbase, coin, MASS, foreign,
+xtable, lmtest, coxme (>= 2.2-1), SimComp, ISwR, tram (>=
+0.2-5), fixest (>= 0.10)" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"multcomp\",version=\"1.4-18\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"munsell" "munsell" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5.0" NA NA "colorspace, methods" NA "ggplot2, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"munsell\",version=\"0.5.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mutoss" "mutoss" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1-12" NA "R (>= 2.10.0), mvtnorm" "plotrix, multtest (>= 2.2.0), multcomp (>= 1.1-0), methods" NA "fdrtool, qvalue, testthat, lattice" NA "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"mutoss\",version=\"0.1-12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"mvtnorm" "mvtnorm" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-3" NA "R(>= 3.5.0)" "stats, methods" NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"mvtnorm\",version=\"1.1-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"nlme" "nlme" "/usr/lib/R/library" "3.1-155" "recommended" "R (>= 3.4.0)" "graphics, stats, utils, lattice" NA "Hmisc, MASS" NA "GPL (>= 2) | file LICENCE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"nlme\",version=\"3.1-155\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"nloptr" "nloptr" "/usr/lib/R/site-library" "2.0.0" NA NA NA "testthat" "knitr, rmarkdown, xml2, testthat (>= 3.0.0), covr" NA "LGPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"nloptr\",version=\"2.0.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"nnet" "nnet" "/usr/lib/R/library" "7.3-17" "recommended" "R (>= 3.0.0), stats, utils" NA NA "MASS" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"nnet\",version=\"7.3-17\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"numDeriv" "numDeriv" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2016.8-1.1" NA "R (>= 2.11.1)" NA NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"numDeriv\",version=\"2016.8-1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"openssl" "openssl" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.0" NA NA "askpass" NA "curl, testthat (>= 2.1.0), digest, knitr, rmarkdown,
+jsonlite, jose, sodium" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"openssl\",version=\"2.0.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pals" "pals" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.7" NA "R (>= 2.10)" "dichromat, colorspace, graphics, grDevices, mapproj, maps,
+methods, stats" NA "classInt, ggplot2, knitr, latticeExtra, reshape2, rgl,
+rmarkdown, testthat" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pals\",version=\"1.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"parallelly" "parallelly" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.30.0" NA NA "parallel, tools, utils" NA NA NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"parallelly\",version=\"1.30.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"patchwork" "patchwork" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA NA "ggplot2 (>= 3.0.0), gtable, grid, stats, grDevices, utils,
+graphics" NA "knitr, rmarkdown, gridGraphics, gridExtra, ragg, testthat (>=
+2.1.0), vdiffr, covr, png" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"patchwork\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pbapply" "pbapply" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5-0" NA "R (>= 3.2.0)" "parallel" NA "shiny" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pbapply\",version=\"1.5-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pbkrtest" "pbkrtest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.5.1" NA "R (>= 3.5.0), lme4 (>= 1.1.10)" "broom, dplyr, magrittr, MASS, Matrix (>= 1.2.3), methods,
+numDeriv, parallel, knitr" NA NA NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pbkrtest\",version=\"0.5.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pbmcapply" "pbmcapply" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.0" NA "utils, parallel" NA NA NA NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"pbmcapply\",version=\"1.5.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pheatmap" "pheatmap" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.12" NA "R (>= 2.0)" "grid, RColorBrewer, scales, gtable, stats, grDevices, graphics" NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pheatmap\",version=\"1.0.12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pillar" "pillar" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.7.0" NA NA "cli (>= 2.3.0), crayon (>= 1.3.4), ellipsis (>= 0.3.2), fansi,
+glue, lifecycle, rlang (>= 0.3.0), utf8 (>= 1.1.0), utils,
+vctrs (>= 0.3.8)" NA "bit64, debugme, DiagrammeR, dplyr, formattable, ggplot2,
+knitr, lubridate, nanotime, nycflights13, palmerpenguins,
+rmarkdown, scales, stringi, survival, testthat (>= 3.1.1),
+tibble, units (>= 0.7.2), vdiffr, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pillar\",version=\"1.7.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pkgbuild" "pkgbuild" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.3.1" NA "R (>= 3.1)" "callr (>= 3.2.0), cli, crayon, desc, prettyunits, R6,
+rprojroot, withr (>= 2.3.0)" NA "Rcpp, cpp11, testthat, covr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pkgbuild\",version=\"1.3.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pkgconfig" "pkgconfig" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.3" NA NA "utils" NA "covr, testthat, disposables (>= 1.0.3)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pkgconfig\",version=\"2.0.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pkgload" "pkgload" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.4" NA NA "cli, crayon, desc, methods, rlang, rprojroot, rstudioapi,
+utils, withr" NA "bitops, covr, pkgbuild, Rcpp, testthat" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"pkgload\",version=\"1.2.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"plogr" "plogr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.0" NA NA NA NA "Rcpp" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"plogr\",version=\"0.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"plotly" "plotly" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.10.0" NA "R (>= 3.2.0), ggplot2 (>= 3.0.0)" "tools, scales, httr (>= 1.3.0), jsonlite (>= 1.6), magrittr,
+digest, viridisLite, base64enc, htmltools (>= 0.3.6),
+htmlwidgets (>= 1.5.2.9001), tidyr (>= 1.0.0), RColorBrewer,
+dplyr, vctrs, tibble, lazyeval (>= 0.2.0), rlang (>= 0.4.10),
+crosstalk, purrr, data.table, promises" NA "MASS, maps, hexbin, ggthemes, GGally, testthat, knitr,
+devtools, shiny (>= 1.1.0), shinytest (>= 1.3.0), curl,
+rmarkdown, Cairo, broom, webshot, listviewer, dendextend,
+maptools, rgeos, sf, png, IRdisplay, processx, plotlyGeoAssets,
+forcats, palmerpenguins, rversions, reticulate" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"plotly\",version=\"4.10.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"plotrix" "plotrix" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.8-2" NA "R (>= 3.5.0)" "grDevices, graphics, stats, utils" NA NA NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"plotrix\",version=\"3.8-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"plyr" "plyr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.7" NA "R (>= 3.1.0)" "Rcpp (>= 0.11.0)" "Rcpp" "abind, covr, doParallel, foreach, iterators, itertools,
+tcltk, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"plyr\",version=\"1.8.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"png" "png" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1-7" NA "R (>= 2.9.0)" NA NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"png\",version=\"0.1-7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"polyclip" "polyclip" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.10-0" NA "R (>= 3.0.0)" NA NA NA NA "BSL" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"polyclip\",version=\"1.10-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"polynom" "polynom" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4-1" NA NA "stats, graphics" NA "knitr, rmarkdown" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"polynom\",version=\"1.4-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"prettyunits" "prettyunits" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA NA NA NA "codetools, covr, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"prettyunits\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"princurve" "princurve" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1.6" NA "R (>= 3.0)" "stats, graphics, grDevices, Rcpp" "Rcpp" "devtools, testthat" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"princurve\",version=\"2.1.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"processx" "processx" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.5.3" NA "R (>= 3.4.0)" "ps (>= 1.2.0), R6, utils" NA "callr (>= 3.7.0), cli (>= 1.1.0), codetools, covr, curl,
+debugme, parallel, testthat (>= 3.0.0), withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"processx\",version=\"3.5.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"progress" "progress" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.2" NA NA "hms, prettyunits, R6, crayon" NA "Rcpp, testthat, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"progress\",version=\"1.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"promises" "promises" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0.1" NA NA "R6, Rcpp, later, rlang, stats, magrittr" "later, Rcpp" "testthat, future (>= 1.21.0), fastmap (>= 1.1.0), purrr,
+knitr, rmarkdown, vembedr, spelling" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"promises\",version=\"1.2.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"proxy" "proxy" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4-26" NA "R (>= 3.4.0)" "stats, utils" NA "cba" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"proxy\",version=\"0.4-26\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"pscl" "pscl" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.5" NA NA "MASS, datasets, grDevices, graphics, stats, utils" NA "lattice, MCMCpack, car, lmtest, sandwich, zoo, coda, vcd,
+mvtnorm, mgcv" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"pscl\",version=\"1.5.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"qlcMatrix" "qlcMatrix" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9.7" NA "Matrix (>= 1.1-0), R (>= 3.2), slam (>= 0.1-32), sparsesvd" "methods, docopt" NA "MASS, knitr" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"qlcMatrix\",version=\"0.9.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"qqconf" "qqconf" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA "R (>= 3.0.0)" "dplyr (>= 1.0.0), magrittr (>= 1.5), rlang (>= 0.4.9), ggplot2
+(>= 3.0.0), MASS (>= 7.3-50), robustbase (>= 0.93-4), distr (>=
+2.8.0)" NA "knitr, rmarkdown" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"qqconf\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"quadprog" "quadprog" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5-8" NA "R (>= 3.1.0)" NA NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"quadprog\",version=\"1.5-8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"quantmod" "quantmod" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.18" NA "R (>= 3.2.0), xts(>= 0.9-0), zoo, TTR(>= 0.2), methods" "curl" NA "DBI,RMySQL,RSQLite,timeSeries,xml2,downloader,jsonlite(>=
+1.1)" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"quantmod\",version=\"0.4.18\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"quantreg" "quantreg" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "5.88" NA "R (>= 2.6), stats, SparseM" "methods, graphics, Matrix, MatrixModels" NA "tripack, akima, MASS, survival, rgl, logspline, nor1mix,
+Formula, zoo, R.rsp, conquer" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"quantreg\",version=\"5.88\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"R.methodsS3" "R.methodsS3" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8.1" NA "R (>= 2.13.0)" "utils" NA "codetools" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"R.methodsS3\",version=\"1.8.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"R.oo" "R.oo" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.24.0" NA "R (>= 2.13.0), R.methodsS3 (>= 1.8.0)" "methods, utils" NA "tools" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"R.oo\",version=\"1.24.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"R.utils" "R.utils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.11.0" NA "R (>= 2.14.0), R.oo (>= 1.24.0)" "methods, utils, tools, R.methodsS3 (>= 1.8.1)" NA "digest (>= 0.6.10)" NA "LGPL (>= 2.1)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"R.utils\",version=\"2.11.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"R6" "R6" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.5.1" NA "R (>= 3.0)" NA NA "testthat, pryr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"R6\",version=\"2.5.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ranger" "ranger" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.13.1" NA "R (>= 3.1)" "Rcpp (>= 0.11.2), Matrix" "Rcpp, RcppEigen" "covr, survival, testthat" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"ranger\",version=\"0.13.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RANN" "RANN" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.6.1" NA NA NA NA "testthat" NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RANN\",version=\"2.6.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"raster" "raster" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.5-15" NA "sp (>= 1.4-5), R (>= 3.5.0)" "Rcpp, methods, terra (>= 1.5-12)" "Rcpp" "rgdal (>= 1.5-23), rgeos (>= 0.5-3), ncdf4, igraph, tcltk,
+parallel, rasterVis, MASS, sf, tinytest, gstat, fields,
+exactextractr" NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"raster\",version=\"3.5-15\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rbibutils" "rbibutils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.2.7" NA "R (>= 2.10)" "utils, tools" NA "testthat" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rbibutils\",version=\"2.2.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RColorBrewer" "RColorBrewer" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-3" NA "R (>= 2.0.0)" NA NA NA NA "Apache License 2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"RColorBrewer\",version=\"1.1-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Rcpp" "Rcpp" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.8.3" NA NA "methods, utils" NA "tinytest, inline, rbenchmark, pkgKitten (>= 0.1.2)" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Rcpp\",version=\"1.0.8.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppAnnoy" "RcppAnnoy" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.0.19" NA "R (>= 3.1)" "methods, Rcpp" "Rcpp" "tinytest" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RcppAnnoy\",version=\"0.0.19\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppArmadillo" "RcppArmadillo" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.11.0.0.0" NA "R (>= 3.3.0)" "Rcpp (>= 0.11.0), stats, utils, methods" "Rcpp" "tinytest, Matrix (>= 1.3.0), pkgKitten, reticulate, slam" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RcppArmadillo\",version=\"0.11.0.0.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppHNSW" "RcppHNSW" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.0" NA NA "methods, Rcpp (>= 0.11.3)" "Rcpp" "testthat, covr" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RcppHNSW\",version=\"0.3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppParallel" "RcppParallel" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "5.1.5" NA "R (>= 3.0.2)" NA NA "Rcpp, RUnit, knitr, rmarkdown" NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RcppParallel\",version=\"5.1.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppProgress" "RcppProgress" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.2" NA NA NA NA "RcppArmadillo, devtools, roxygen2, testthat" NA "GPL (>= 3)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"RcppProgress\",version=\"0.4.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RcppTOML" "RcppTOML" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.7" NA "R (>= 3.3.0)" "Rcpp (>= 0.11.5)" "Rcpp" "tinytest" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RcppTOML\",version=\"0.1.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RCurl" "RCurl" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.98-1.6" NA "R (>= 3.4.0), methods" "bitops" NA "XML" NA "BSD_3_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RCurl\",version=\"1.98-1.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Rdpack" "Rdpack" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.3" NA "R (>= 2.15.0), methods" "tools, utils, rbibutils (>= 1.3)" NA "grDevices, testthat, rstudioapi, rprojroot, gbRd" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"Rdpack\",version=\"2.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"readr" "readr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1.2" NA "R (>= 3.1)" "cli (>= 3.0.0), clipr, crayon, hms (>= 0.4.1), lifecycle (>=
+0.2.0), methods, R6, rlang, tibble, utils, vroom (>= 1.5.6)" "cpp11, tzdb (>= 0.1.1)" "covr, curl, datasets, knitr, rmarkdown, spelling, stringi,
+testthat (>= 3.1.2), tzdb (>= 0.1.1), waldo, withr, xml2" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"readr\",version=\"2.1.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"readxl" "readxl" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.0" NA "R (>= 3.4)" "cellranger, tibble (>= 2.0.1), utils" "cpp11 (>= 0.4.0), progress" "knitr, rmarkdown, testthat (>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"readxl\",version=\"1.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rematch" "rematch" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.1" NA NA NA NA "covr, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rematch\",version=\"1.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"remotes" "remotes" "/usr/lib/R/site-library" "2.4.2" NA "R (>= 3.0.0)" "methods, stats, tools, utils" NA "brew, callr, codetools, curl, covr, git2r (>= 0.23.0), knitr,
+mockery, pkgbuild (>= 1.0.1), pingr, rmarkdown, rprojroot,
+testthat, webfakes, withr" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"remotes\",version=\"2.4.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"reshape2" "reshape2" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.4" NA "R (>= 3.1)" "plyr (>= 1.8.1), Rcpp, stringr" "Rcpp" "covr, lattice, testthat (>= 0.8.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"reshape2\",version=\"1.4.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"reticulate" "reticulate" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.24" NA "R (>= 3.0)" "Matrix, Rcpp (>= 0.12.7), RcppTOML, graphics, here, jsonlite,
+methods, png, rappdirs, utils, withr" "Rcpp" "callr, knitr, rlang, rmarkdown, testthat" NA "Apache License 2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"reticulate\",version=\"1.24\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rex" "rex" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.1" NA NA "lazyeval" NA "covr, dplyr, ggplot2, Hmisc, knitr, magrittr, rmarkdown,
+roxygen2, rvest, stringr, testthat" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rex\",version=\"1.2.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rgl" "rgl" "/usr/lib/R/site-library" "0.108.3" NA "R (>= 3.3.0)" "graphics, grDevices, stats, utils, htmlwidgets, htmltools,
+knitr (>= 1.33), jsonlite (>= 0.9.20), magrittr, R6" NA "MASS, rmarkdown, deldir (>= 1.0-4), orientlib, lattice,
+misc3d, magick, plotrix (>= 3.7-3), tripack, interp,
+alphashape3d, tcltk, js (>= 1.2), akima, webshot2, downlit (>=
+0.4.0), pkgdown, extrafont, shiny, manipulateWidget (>= 0.9.0),
+testthat, markdown, crosstalk" "waldo" "GPL" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rgl\",version=\"0.108.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RhpcBLASctl" "RhpcBLASctl" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.21-247.1" NA NA NA NA NA NA "AGPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RhpcBLASctl\",version=\"0.21-247.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rjags" "rjags" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4-12" NA "R (>= 2.14.0), coda (>= 0.13)" NA NA "tcltk" NA "GPL (== 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rjags\",version=\"4-12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rJava" "rJava" "/usr/lib/R/site-library" "1.0-6" NA "R (>= 3.6.0), methods" NA NA NA NA "LGPL-2.1" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rJava\",version=\"1.0-6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rjson" "rjson" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.21" NA "R (>= 4.0.0)" NA NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rjson\",version=\"0.2.21\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rlang" "rlang" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.2" NA "R (>= 3.4.0)" "utils" NA "cli (>= 3.1.0), covr, crayon, fs, glue, knitr, magrittr,
+methods, pillar, rmarkdown, stats, testthat (>= 3.0.0), tibble,
+usethis, vctrs (>= 0.2.3), withr" "winch" "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rlang\",version=\"1.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"robustbase" "robustbase" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.95-0" NA "R (>= 3.5.0)" "stats, graphics, utils, methods, DEoptimR" NA "grid, MASS, lattice, boot, cluster, Matrix, robust,
+fit.models, MPV, xtable, ggplot2, GGally, RColorBrewer,
+reshape2, sfsmisc, catdata, doParallel, foreach, skewt" "robustX, rrcov, matrixStats, quantreg, Hmisc" "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"robustbase\",version=\"0.95-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ROCR" "ROCR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-11" NA "R (>= 3.6)" "methods, graphics, grDevices, gplots, stats" NA "testthat, knitr, rmarkdown" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ROCR\",version=\"1.0-11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rpart" "rpart" "/usr/lib/R/library" "4.1.16" "recommended" "R (>= 2.15.0), graphics, stats, grDevices" NA NA "survival" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rpart\",version=\"4.1.16\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rsample" "rsample" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.1" NA "R (>= 3.2)" "dplyr (>= 1.0.0), ellipsis, furrr, generics, lifecycle,
+methods, purrr, rlang (>= 0.4.10), slider (>= 0.1.5), tibble,
+tidyr, tidyselect, vctrs (>= 0.3.0)" NA "broom, covr, ggplot2, knitr, modeldata, recipes (>= 0.1.4),
+rmarkdown, stats, testthat, utils, xml2" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rsample\",version=\"0.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RSpectra" "RSpectra" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.16-0" NA "R (>= 3.0.2)" "Matrix (>= 1.1-0), Rcpp (>= 0.11.5)" "Rcpp, RcppEigen (>= 0.3.3.3.0)" "knitr, rmarkdown, prettydoc" NA "MPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RSpectra\",version=\"0.16-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RSQLite" "RSQLite" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.2.12" NA "R (>= 3.1.0)" "bit64, blob (>= 1.2.0), DBI (>= 1.1.0), memoise, methods,
+pkgconfig, Rcpp (>= 1.0.7)" "plogr (>= 0.2.0), Rcpp" "callr, DBItest (>= 1.7.0), gert, gh, knitr, rmarkdown, hms,
+rvest, testthat, xml2" NA "LGPL (>= 2.1)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RSQLite\",version=\"2.2.12\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rstatix" "rstatix" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.7.0" NA "R (>= 3.3.0)" "stats, utils, tidyr (>= 1.0.0), purrr, broom (>= 0.7.4), rlang
+(>= 0.3.1), tibble (>= 2.1.3), dplyr (>= 0.7.1), magrittr,
+corrplot, tidyselect (>= 1.0.0), car, generics (>= 0.0.2)" NA "knitr, rmarkdown, ggpubr, graphics, emmeans, coin, boot,
+testthat, spelling" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rstatix\",version=\"0.7.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rsvd" "rsvd" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.5" NA "R (>= 4.0.0)" "Matrix" NA "ggplot2, testthat" NA "GPL (>= 3)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rsvd\",version=\"1.0.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Rtsne" "Rtsne" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.15" NA NA "Rcpp (>= 0.11.0), stats" "Rcpp" "irlba, testthat" NA "file LICENSE" "yes" NA NA NA "yes" "4.1.2" "devtools::install_version(\"Rtsne\",version=\"0.15\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RUnit" "RUnit" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.32" NA "R (>= 2.5.0), utils (>= 2.5.0), methods (>= 2.5.0), graphics
+(>= 2.5.0)" NA NA "XML (>= 3.1.0)" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"RUnit\",version=\"0.4.32\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rvest" "rvest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.2" NA "R (>= 3.2)" "httr (>= 0.5), lifecycle (>= 1.0.0), magrittr, rlang (>=
+0.4.10), selectr, tibble, xml2 (>= 1.3)" NA "covr, glue, knitr, readr, rmarkdown, repurrrsive, spelling,
+stringi (>= 0.3.1), testthat (>= 3.0.2), webfakes" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"rvest\",version=\"1.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"s2" "s2" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.7" NA "R (>= 3.0.0)" "Rcpp, wk (>= 0.5.0)" "Rcpp, wk" "testthat, vctrs" NA "Apache License (== 2.0)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"s2\",version=\"1.0.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sandwich" "sandwich" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.0-1" NA "R (>= 3.0.0)" "stats, utils, zoo" NA "AER, car, geepack, lattice, lmtest, MASS, multiwayvcov,
+parallel, pcse, plm, pscl, scatterplot3d, stats4, strucchange,
+survival" NA "GPL-2 | GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"sandwich\",version=\"3.0-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sass" "sass" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.1" NA NA "fs, rlang (>= 0.4.10), htmltools (>= 0.5.1), R6, rappdirs" NA "testthat, knitr, rmarkdown, withr, shiny, curl" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sass\",version=\"0.4.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"scales" "scales" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.1" NA "R (>= 3.2)" "farver (>= 2.0.3), labeling, lifecycle, munsell (>= 0.5), R6,
+RColorBrewer, viridisLite" NA "bit64, covr, dichromat, ggplot2, hms (>= 0.5.0), testthat (>=
+2.1.0)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"scales\",version=\"1.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"scattermore" "scattermore" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.8" NA NA "ggplot2, scales, grid, grDevices, graphics" NA NA NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"scattermore\",version=\"0.8\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"scatterpie" "scatterpie" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.7" NA "R (>= 3.4.0), ggplot2" "ggforce, rlang, ggfun, stats, tidyr, utils" NA "knitr, rmarkdown, prettydoc, maps" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"scatterpie\",version=\"0.1.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sctransform" "sctransform" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.3" NA "R (>= 3.5.0)" "dplyr, magrittr, MASS, Matrix, methods, future.apply, future,
+ggplot2, reshape2, rlang, gridExtra, matrixStats" "RcppArmadillo, Rcpp (>= 0.11.0)" "irlba, testthat, knitr" "glmGamPoi" "GPL-3 | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sctransform\",version=\"0.3.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"segmented" "segmented" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4-1" NA "MASS" NA NA NA NA "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"segmented\",version=\"1.4-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"selectr" "selectr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4-2" NA "R (>= 3.0)" "methods, stringr, R6" NA "testthat, XML, xml2" NA "BSD_3_clause + file LICENCE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"selectr\",version=\"0.4-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sessioninfo" "sessioninfo" "/usr/lib/R/site-library" "1.2.2" NA "R (>= 2.10)" "cli (>= 3.1.0), tools, utils" NA "callr, covr, mockery, reticulate, rmarkdown, testthat, withr" NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"sessioninfo\",version=\"1.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Seurat" "Seurat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.1.0" NA "R (>= 4.0.0), methods" "cluster, cowplot, fitdistrplus, future, future.apply, ggplot2
+(>= 3.3.0), ggrepel, ggridges, graphics, grDevices, grid, httr,
+ica, igraph, irlba, jsonlite, KernSmooth, leiden (>= 0.3.1),
+lmtest, MASS, Matrix (>= 1.2-14), matrixStats, miniUI,
+patchwork, pbapply, plotly (>= 4.9.0), png, RANN, RColorBrewer,
+Rcpp (>= 1.0.7), RcppAnnoy (>= 0.0.18), reticulate, rlang,
+ROCR, Rtsne, scales, scattermore (>= 0.7), sctransform (>=
+0.3.3), SeuratObject (>= 4.0.4), shiny, spatstat.core,
+spatstat.geom, stats, tibble, tools, utils, uwot (>= 0.1.9)" "Rcpp (>= 0.11.0), RcppEigen, RcppProgress" "ape, rsvd, testthat, hdf5r, S4Vectors, SummarizedExperiment,
+SingleCellExperiment, MAST, DESeq2, BiocGenerics,
+GenomicRanges, GenomeInfoDb, IRanges, rtracklayer, Rfast2,
+monocle, Biobase, VGAM, limma, metap, enrichR, mixtools,
+ggrastr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Seurat\",version=\"4.1.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"SeuratObject" "SeuratObject" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.0.4" NA "R (>= 4.0.0)" "grDevices, grid, Matrix (>= 1.3.3), methods, Rcpp (>= 1.0.5),
+rlang (>= 0.4.7), stats, tools, utils" "Rcpp, RcppEigen" "testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"SeuratObject\",version=\"4.0.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sf" "sf" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-7" NA "methods, R (>= 3.3.0)" "classInt (>= 0.4-1), DBI (>= 0.8), graphics, grDevices, grid,
+magrittr, Rcpp (>= 0.12.18), s2 (>= 1.0.7), stats, tools, units
+(>= 0.7-0), utils" "Rcpp" "blob, covr, dplyr (>= 0.8-3), ggplot2, knitr, lwgeom (>=
+0.2-1), maps, mapview, Matrix, microbenchmark, odbc, pillar,
+pool, raster, rlang, rmarkdown, RPostgres (>= 1.1.0),
+RPostgreSQL, RSQLite, sp (>= 1.2-4), spatstat (>= 2.0-1),
+spatstat.geom, spatstat.random, spatstat.linnet,
+spatstat.utils, stars (>= 0.2-0), terra, testthat, tibble (>=
+1.4.1), tidyr (>= 1.2.0), tidyselect (>= 1.0.0), tmap (>= 2.0),
+vctrs, wk" NA "GPL-2 | MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sf\",version=\"1.0-7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sfsmisc" "sfsmisc" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-13" NA "R (>= 3.3.0)" "grDevices, utils, stats, tools" NA "datasets, tcltk, cluster, lattice, MASS, Matrix, nlme, lokern" "mgcv, rpart, nor1mix, polycor, sm, tikzDevice, e1071, Hmisc,
+gmp, pastecs, polynom, robustbase" "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"sfsmisc\",version=\"1.1-13\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"shadowtext" "shadowtext" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.1" NA "R (>= 3.4.0)" "ggplot2, grid, scales" NA "knitr, rmarkdown, prettydoc" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"shadowtext\",version=\"0.1.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"shape" "shape" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.6" NA "R (>= 2.01)" "stats, graphics, grDevices" NA NA NA "GPL (>= 3)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"shape\",version=\"1.4.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"shiny" "shiny" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.7.1" NA "R (>= 3.0.2), methods" "utils, grDevices, httpuv (>= 1.5.2), mime (>= 0.3), jsonlite
+(>= 0.9.16), xtable, fontawesome (>= 0.2.1), htmltools (>=
+0.5.2), R6 (>= 2.0), sourcetools, later (>= 1.0.0), promises
+(>= 1.1.0), tools, crayon, rlang (>= 0.4.10), fastmap (>=
+1.1.0), withr, commonmark (>= 1.7), glue (>= 1.3.2), bslib (>=
+0.3.0), cachem, ellipsis, lifecycle (>= 0.2.0)" NA "datasets, Cairo (>= 1.5-5), testthat (>= 3.0.0), knitr (>=
+1.6), markdown, rmarkdown, ggplot2, reactlog (>= 1.0.0),
+magrittr, shinytest (>= 1.4.0.9003), yaml, future, dygraphs,
+ragg, showtext, sass" NA "GPL-3 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"shiny\",version=\"1.7.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"shinyjs" "shinyjs" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1.0" NA "R (>= 3.1.0)" "digest (>= 0.6.8), jsonlite, shiny (>= 1.0.0)" NA "htmltools (>= 0.2.9), knitr (>= 1.7), rmarkdown, shinyAce,
+shinydisconnect, testthat (>= 0.9.1)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"shinyjs\",version=\"2.1.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sitmo" "sitmo" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.2" NA "R (>= 3.2.0)" "Rcpp (>= 0.12.13)" "Rcpp" "knitr, rmarkdown, ggplot2" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sitmo\",version=\"2.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"slam" "slam" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1-50" NA "R (>= 3.4.0)" "stats" NA NA "Matrix, SparseM, spam" "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"slam\",version=\"0.1-50\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"slider" "slider" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.2" NA "R (>= 3.3.0)" "ellipsis (>= 0.3.1), glue, rlang (>= 0.4.5), vctrs (>= 0.3.6),
+warp" "vctrs (>= 0.3.6)" "covr, dplyr (>= 1.0.0), knitr, lubridate, rmarkdown, testthat
+(>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"slider\",version=\"0.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sn" "sn" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.2" NA "R (>= 3.0.0), methods, stats4" "mnormt (>= 2.0.0), numDeriv, utils, quantreg" NA "R.rsp" NA "GPL-2 | GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"sn\",version=\"2.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"snow" "snow" "/usr/lib/R/site-library" "0.4-4" NA "R (>= 2.13.1), utils" NA NA "rlecuyer" "Rmpi" "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"snow\",version=\"0.4-4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sp" "sp" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4-6" NA "R (>= 3.0.0), methods" "utils, stats, graphics, grDevices, lattice, grid" NA "RColorBrewer, rgdal (>= 1.2-3), rgeos (>= 0.3-13), gstat,
+maptools, deldir, knitr, rmarkdown" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sp\",version=\"1.4-6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"SparseM" "SparseM" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.81" NA "R (>= 2.15), methods" "graphics, stats, utils" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"SparseM\",version=\"1.81\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sparsesvd" "sparsesvd" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2" NA "R (>= 3.0)" "Matrix, methods" NA NA NA "BSD_3_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sparsesvd\",version=\"0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatial" "spatial" "/usr/lib/R/library" "7.3-15" "recommended" "R (>= 3.0.0), graphics, stats, utils" NA NA "MASS" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatial\",version=\"7.3-15\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.core" "spatstat.core" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.4-2" NA "R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.4-0), spatstat.random (>= 2.2-0), stats, graphics, grDevices,
+utils, methods, nlme, rpart" "spatstat.utils (>= 2.3-0), spatstat.sparse (>= 2.0-0), mgcv,
+Matrix, abind, tensor, goftest (>= 1.2-2)" NA "sm, maptools (>= 0.9-9), gsl, locfit, spatial, RandomFields
+(>= 3.1.24.1), RandomFieldsUtils(>= 0.3.3.1), fftwtools (>=
+0.9-8), nleqslv, spatstat.linnet (>= 2.0-0), spatstat (>=
+2.3-3)" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatstat.core\",version=\"2.4-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.data" "spatstat.data" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1-4" NA "R (>= 3.5.0)" "spatstat.utils (>= 2.1-0), Matrix" NA "spatstat.geom, spatstat.random, spatstat.core,
+spatstat.linnet" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"spatstat.data\",version=\"2.1-4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.geom" "spatstat.geom" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.4-0" NA "R (>= 3.5.0), spatstat.data (>= 2.0-0), stats, graphics,
+grDevices, utils, methods" "spatstat.utils (>= 2.2-0), deldir (>= 1.0-2), polyclip (>=
+1.10-0)" NA "spatstat.core, spatstat.random, spatstat.linnet, maptools (>=
+0.9-9), spatial, fftwtools (>= 0.9-8), spatstat (>= 2.0-0)" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatstat.geom\",version=\"2.4-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.random" "spatstat.random" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.2-0" NA "R (>= 3.5.0), spatstat.data (>= 2.1-0), spatstat.geom (>=
+2.4-0), stats, utils, methods, grDevices" "spatstat.utils (>= 2.2-0)" NA "spatial, RandomFields (>= 3.1.24.1), RandomFieldsUtils(>=
+0.3.3.1), spatstat.linnet (>= 2.0-0), spatstat.core (>= 2.4-0),
+spatstat (>= 2.3-3)" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatstat.random\",version=\"2.2-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.sparse" "spatstat.sparse" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1-0" NA "R (>= 3.5.0), stats, utils, methods, Matrix, abind, tensor" "spatstat.utils (>= 2.1-0)" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatstat.sparse\",version=\"2.1-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spatstat.utils" "spatstat.utils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.3-0" NA "R (>= 3.3.0), stats, graphics, grDevices, utils, methods" NA NA "spatstat.core" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spatstat.utils\",version=\"2.3-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spData" "spData" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.0.1" NA "R (>= 3.3.0)" "sp, raster" NA "foreign, maptools, rgdal, sf (>= 0.9-1), spDataLarge (>=
+0.4.0), spdep, spatialreg" NA "CC0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"spData\",version=\"2.0.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"spdep" "spdep" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2-3" NA "R (>= 3.3.0), methods, sp (>= 1.0), spData (>= 0.2.6.0), sf" "stats, deldir, boot (>= 1.3-1), graphics, utils, grDevices,
+units, s2, e1071" NA "spatialreg (>= 1.2-1), Matrix, parallel, dbscan, rgeos,
+RColorBrewer, lattice, xtable, maptools (>= 0.5-4), foreign,
+igraph, RSpectra, knitr, rgdal, classInt, tmap, spam, ggplot2,
+rmarkdown, tinytest, rgeoda" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"spdep\",version=\"1.2-3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"speedglm" "speedglm" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3-4" NA "Matrix, MASS" "methods, stats" NA NA NA "GPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"speedglm\",version=\"0.3-4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"startupmsg" "startupmsg" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.9.6" NA "R(>= 1.8.0)" NA NA NA NA "LGPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"startupmsg\",version=\"0.9.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"StatMatch" "StatMatch" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.1" NA "R (>= 2.7.0), proxy, survey, lpSolve, ggplot2" NA NA "Hmisc, MASS, mipfp, clue, RANN," NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"StatMatch\",version=\"1.4.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"stinepack" "stinepack" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4" NA NA "stats" NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"stinepack\",version=\"1.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"stringi" "stringi" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.7.6" NA "R (>= 3.1)" "tools, utils, stats" NA NA NA "file LICENSE" "yes" NA NA NA "yes" "4.1.2" "devtools::install_version(\"stringi\",version=\"1.7.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"stringr" "stringr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.0" NA "R (>= 3.1)" "glue (>= 1.2.0), magrittr, stringi (>= 1.1.7)" NA "covr, htmltools, htmlwidgets, knitr, rmarkdown, testthat" NA "GPL-2 | file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"stringr\",version=\"1.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"survey" "survey" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.1-1" NA "R (>= 3.5.0), grid, methods, Matrix, survival" "stats, graphics, splines, lattice, minqa, numDeriv, mitools
+(>= 2.4)" NA "foreign, MASS, KernSmooth, hexbin, RSQLite, quantreg,
+parallel, CompQuadForm, DBI, AER" NA "GPL-2 | GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"survey\",version=\"4.1-1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"svglite" "svglite" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.1.0" NA "R (>= 3.0.0)" "systemfonts (>= 1.0.0)" "cpp11, systemfonts" "htmltools, testthat, xml2 (>= 1.0.0), covr, fontquiver (>=
+0.2.0), knitr, rmarkdown" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"svglite\",version=\"2.1.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tensor" "tensor" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5" NA NA NA NA NA NA "GPL (>= 2)" NA NA NA NA NA "4.1.2" "devtools::install_version(\"tensor\",version=\"1.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"terra" "terra" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5-21" NA "R (>= 3.5.0)" "methods, Rcpp" "Rcpp" "parallel, tinytest, ncdf4, sf (>= 0.9-8), deldir, XML, igraph" NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"terra\",version=\"1.5-21\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"testthat" "testthat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.1.3" NA "R (>= 3.1)" "brio, callr (>= 3.5.1), cli (>= 3.1.1), crayon (>= 1.3.4),
+desc, digest, ellipsis (>= 0.2.0), evaluate, jsonlite,
+lifecycle, magrittr, methods, pkgload, praise, processx, ps (>=
+1.3.4), R6 (>= 2.2.0), rlang (>= 1.0.1), utils, waldo (>=
+0.3.1), withr (>= 2.4.3)" NA "covr, curl (>= 0.9.5), diffviewer (>= 0.1.0), knitr, mockery,
+rmarkdown, rstudioapi, shiny, usethis, vctrs (>= 0.1.0), xml2" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"testthat\",version=\"3.1.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"TFisher" "TFisher" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.0" NA NA "stats, sn, mvtnorm, Matrix" NA NA NA "GPL-2" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"TFisher\",version=\"0.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"TH.data" "TH.data" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-0" NA "R (>= 3.5.0), survival, MASS" NA NA "dplyr, gdata, plyr, trtf, tram, rms, coin, ATR, multcomp,
+gridExtra, vcd, colorspace, lattice, knitr" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"TH.data\",version=\"1.1-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tibble" "tibble" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.1.6" NA "R (>= 3.1.0)" "ellipsis (>= 0.3.2), fansi (>= 0.4.0), lifecycle (>= 1.0.0),
+magrittr, methods, pillar (>= 1.6.2), pkgconfig, rlang (>=
+0.4.3), utils, vctrs (>= 0.3.8)" NA "bench, bit64, blob, brio, callr, cli, covr, crayon (>=
+1.3.4), DiagrammeR, dplyr, evaluate, formattable, ggplot2, hms,
+htmltools, knitr, lubridate, mockr, nycflights13, pkgbuild,
+pkgload, purrr, rmarkdown, stringi, testthat (>= 3.0.2), tidyr,
+withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tibble\",version=\"3.1.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tidygraph" "tidygraph" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.1" NA NA "tibble, dplyr (>= 0.8.5), igraph, magrittr, utils, rlang, R6,
+tools, stats, tidyr, pillar, cli" "cpp11" "network, data.tree, ape, graph, methods, testthat, covr,
+seriation, netrankr, influenceR, NetSwan" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tidygraph\",version=\"1.2.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tidyr" "tidyr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0" NA "R (>= 3.1)" "dplyr (>= 1.0.0), ellipsis (>= 0.1.0), glue, lifecycle,
+magrittr, purrr, rlang, tibble (>= 2.1.1), tidyselect (>=
+1.1.0), utils, vctrs (>= 0.3.7)" "cpp11 (>= 0.4.0)" "covr, data.table, jsonlite, knitr, readr, repurrrsive (>=
+1.0.0), rmarkdown, testthat (>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tidyr\",version=\"1.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tidyselect" "tidyselect" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1.2" NA "R (>= 3.2)" "ellipsis, glue (>= 1.3.0), purrr (>= 0.3.2), rlang (>= 1.0.1),
+vctrs (>= 0.3.0)" NA "covr, crayon, dplyr, knitr, magrittr, rmarkdown, testthat (>=
+3.1.1), tibble (>= 2.1.3), withr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tidyselect\",version=\"1.1.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tidytree" "tidytree" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.9" NA "R (>= 3.4.0)" "ape, dplyr, lazyeval, magrittr, methods, rlang, tibble, tidyr,
+tidyselect, yulab.utils (>= 0.0.4), pillar" NA "knitr, rmarkdown, prettydoc, testthat, utils" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"tidytree\",version=\"0.3.9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tiff" "tiff" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1-11" NA "R (>= 2.9.0)" NA NA NA NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tiff\",version=\"0.1-11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"timeDate" "timeDate" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3043.102" NA "R (>= 2.15.1), graphics, utils, stats, methods" NA NA "date, RUnit" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"timeDate\",version=\"3043.102\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tinytex" "tinytex" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.38" NA NA "xfun (>= 0.29)" NA "testit, rstudioapi" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"tinytex\",version=\"0.38\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tmvnsim" "tmvnsim" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0-2" NA NA NA NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tmvnsim\",version=\"1.0-2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tseries" "tseries" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.10-50" NA "R (>= 2.10.0)" "graphics, stats, utils, quadprog, zoo, quantmod (>= 0.4-9)" NA NA NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tseries\",version=\"0.10-50\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"TTR" "TTR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.24.3" NA NA "xts (>= 0.10-0), zoo, curl" "xts" "RUnit" "quantmod" "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"TTR\",version=\"0.24.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tweenr" "tweenr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.0.2" NA "R (>= 3.2.0)" "Rcpp (>= 0.12.3), grDevices, farver, magrittr, rlang" "Rcpp" "testthat, covr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tweenr\",version=\"1.0.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tzdb" "tzdb" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.3.0" NA "R (>= 3.4.0)" NA "cpp11 (>= 0.4.2)" "covr, testthat (>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"tzdb\",version=\"0.3.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"umap" "umap" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.8.0" NA "R (>= 3.1.2)" "Matrix, methods, openssl, reticulate, Rcpp (>= 0.12.6),
+RSpectra, stats" "Rcpp" "knitr, rmarkdown, testthat" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"umap\",version=\"0.2.8.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"units" "units" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.8-0" NA "R (>= 3.0.2)" "Rcpp" "Rcpp (>= 0.12.10)" "NISTunits, measurements, xml2, magrittr, pillar (>= 1.3.0),
+dplyr (>= 1.0.0), vctrs (>= 0.3.1), ggplot2 (> 3.2.1), testthat
+(>= 3.0.0), vdiffr, knitr, rmarkdown" NA "GPL-2" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"units\",version=\"0.8-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"urca" "urca" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.3-0" NA "R (>= 2.0.0), methods" "nlme, graphics, stats" NA NA NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"urca\",version=\"1.3-0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"useful" "useful" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.6" NA "ggplot2" "plyr, dplyr (>= 0.5.0), magrittr, purrr (>= 0.1.0), stats,
+scales, utils, Matrix, assertthat" NA "testthat, tibble, covr" NA "BSD_3_clause + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"useful\",version=\"1.2.6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"usethis" "usethis" "/usr/lib/R/site-library" "2.1.5" NA "R (>= 3.4)" "cli (>= 3.0.1), clipr (>= 0.3.0), crayon, curl (>= 2.7), desc
+(>= 1.4.0), fs (>= 1.3.0), gert (>= 1.4.1), gh (>= 1.2.1), glue
+(>= 1.3.0), jsonlite, lifecycle (>= 1.0.0), purrr, rappdirs,
+rlang (>= 0.4.10), rprojroot (>= 1.2), rstudioapi, stats,
+utils, whisker, withr (>= 2.3.0), yaml" NA "covr, knitr, magick, mockr, pkgload, rmarkdown, roxygen2 (>=
+7.1.2), spelling (>= 1.2), styler (>= 1.2.0), testthat (>=
+3.1.0)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"usethis\",version=\"2.1.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"utf8" "utf8" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.2" NA "R (>= 2.10)" NA NA "cli, covr, knitr, rlang, rmarkdown, testthat (>= 3.0.0),
+withr" NA "Apache License (== 2.0) | file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"utf8\",version=\"1.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"uwot" "uwot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.1.11" NA "Matrix" "Rcpp, methods, FNN, RSpectra, RcppAnnoy (>= 0.0.17), irlba" "Rcpp, RcppProgress, RcppAnnoy, dqrng" "testthat, covr, bigstatsr" NA "GPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"uwot\",version=\"0.1.11\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"vctrs" "vctrs" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.0" NA "R (>= 3.3)" "cli (>= 3.2.0), glue, rlang (>= 1.0.2)" NA "bit64, covr, crayon, dplyr (>= 0.8.5), generics, knitr,
+pillar (>= 1.4.4), pkgdown (>= 2.0.1), rmarkdown, testthat (>=
+3.0.0), tibble (>= 3.1.3), withr, xml2, waldo (>= 0.2.0),
+zeallot" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"vctrs\",version=\"0.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"VGAM" "VGAM" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.1-6" NA "R (>= 3.5.0), methods, stats, stats4, splines" NA NA "VGAMextra, MASS, mgcv" "VGAMdata" "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"VGAM\",version=\"1.1-6\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"vipor" "vipor" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.5" NA "R (>= 3.0.0)" "stats, graphics" NA "testthat, beeswarm, lattice, ggplot2, beanplot, vioplot,
+ggbeeswarm," NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"vipor\",version=\"0.4.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"viridis" "viridis" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.6.2" NA "R (>= 2.10), viridisLite (>= 0.4.0)" "stats, ggplot2 (>= 1.0.1), gridExtra" NA "hexbin (>= 1.27.0), scales, MASS, knitr, dichromat,
+colorspace, raster, rasterVis, httr, mapproj, vdiffr, svglite
+(>= 1.2.0), testthat, covr, rmarkdown, rgdal, maps" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"viridis\",version=\"0.6.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"vroom" "vroom" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.5.7" NA "R (>= 3.1)" "bit64, crayon, cli, glue, hms, lifecycle, methods, rlang (>=
+0.4.2), stats, tibble (>= 2.0.0), tzdb (>= 0.1.1), vctrs (>=
+0.2.0), tidyselect, withr" "progress (>= 1.2.1), cpp11 (>= 0.2.0), tzdb (>= 0.1.1)" "archive, bench (>= 1.1.0), covr, curl, dplyr, forcats, fs,
+ggplot2, knitr, patchwork, prettyunits, purrr, rmarkdown,
+rstudioapi, scales, spelling, testthat (>= 2.1.0), tidyr,
+utils, waldo, xml2" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"vroom\",version=\"1.5.7\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"waldo" "waldo" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.4.0" NA NA "cli, diffobj (>= 0.3.4), fansi, glue, methods, rematch2, rlang
+(>= 1.0.0), tibble" NA "covr, R6, testthat (>= 3.0.0), withr, xml2" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"waldo\",version=\"0.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"warp" "warp" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.2.0" NA "R (>= 3.2)" NA NA "covr, testthat (>= 2.1.0), knitr, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"warp\",version=\"0.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"withr" "withr" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.5.0" NA "R (>= 3.2.0)" "graphics, grDevices, stats" NA "callr, covr, DBI, knitr, lattice, methods, rlang, rmarkdown
+(>= 2.12), RSQLite, testthat (>= 3.0.0)" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"withr\",version=\"2.5.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"wk" "wk" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.6.0" NA NA NA NA "testthat (>= 3.0.0), vctrs (>= 0.3.0), sf, tibble, readr" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"wk\",version=\"0.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"xfun" "xfun" "/usr/lib/R/site-library" "0.29" NA NA "stats, tools" NA "testit, parallel, codetools, rstudioapi, tinytex (>= 0.30),
+mime, markdown, knitr, htmltools, remotes, pak, rhub, renv,
+curl, jsonlite, rmarkdown" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"xfun\",version=\"0.29\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"XML" "XML" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.99-0.9" NA "R (>= 4.0.0), methods, utils" NA NA "bitops, RCurl" NA "BSD_3_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"XML\",version=\"3.99-0.9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"xml2" "xml2" "/usr/lib/R/site-library" "1.3.3" NA "R (>= 3.1.0)" "methods" NA "covr, curl, httr, knitr, magrittr, mockery, rmarkdown,
+testthat (>= 2.1.0)" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"xml2\",version=\"1.3.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"xtable" "xtable" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8-4" NA "R (>= 2.10.0)" "stats, utils" NA "knitr, plm, zoo, survival" NA "GPL (>= 2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"xtable\",version=\"1.8-4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"xts" "xts" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.12.1" NA "zoo (>= 1.7-12)" "methods" "zoo" "timeSeries, timeDate, tseries, chron, fts, tis, RUnit" NA "GPL (>= 2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"xts\",version=\"0.12.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"yaml" "yaml" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.3.5" NA NA NA NA "RUnit" NA "BSD_3_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"yaml\",version=\"2.3.5\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"yulab.utils" "yulab.utils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.0.4" NA NA "utils" NA "pkgbuild" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"yulab.utils\",version=\"0.0.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"zoo" "zoo" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.8-9" NA "R (>= 3.1.0), stats" "utils, graphics, grDevices, lattice (>= 0.20-27)" NA "AER, coda, chron, fts, ggplot2 (>= 3.0.0), mondate, scales,
+stinepack, strucchange, timeDate, timeSeries, tis, tseries, xts" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"zoo\",version=\"1.8-9\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"annotate" "annotate" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.72.0" NA "R (>= 2.10), AnnotationDbi (>= 1.27.5), XML" "Biobase, DBI, xtable, graphics, utils, stats, methods,
+BiocGenerics (>= 0.13.8), httr" NA "hgu95av2.db, genefilter, Biostrings (>= 2.25.10), IRanges,
+rae230a.db, rae230aprobe, tkWidgets, GO.db, org.Hs.eg.db,
+org.Mm.eg.db, humanCHRLOC, Rgraphviz, RUnit," NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"annotate\",version=\"1.72.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"AnnotationDbi" "AnnotationDbi" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.56.2" NA "R (>= 2.7.0), methods, utils, stats4, BiocGenerics (>=
+0.29.2), Biobase (>= 1.17.0), IRanges" "DBI, RSQLite, S4Vectors (>= 0.9.25), stats, KEGGREST" NA "hgu95av2.db, GO.db, org.Sc.sgd.db, org.At.tair.db, RUnit,
+TxDb.Hsapiens.UCSC.hg19.knownGene, org.Hs.eg.db, reactome.db,
+AnnotationForge, graph, EnsDb.Hsapiens.v75, BiocStyle, knitr" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"AnnotationDbi\",version=\"1.56.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"AUCell" "AUCell" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.16.0" NA NA "data.table, graphics, grDevices, GSEABase, methods, mixtools,
+R.utils, shiny, stats, SummarizedExperiment, BiocGenerics,
+S4Vectors, utils" NA "Biobase, BiocStyle, doSNOW, dynamicTreeCut, DT, GEOquery,
+knitr, NMF, plyr, R2HTML, rmarkdown, reshape2, plotly, rbokeh,
+Rtsne, testthat, zoo" "doMC, doRNG, doParallel, foreach" "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"AUCell\",version=\"1.16.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"batchelor" "batchelor" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.10.0" NA "SingleCellExperiment" "SummarizedExperiment, S4Vectors, BiocGenerics, Rcpp, stats,
+methods, utils, igraph, BiocNeighbors, BiocSingular, Matrix,
+DelayedArray, DelayedMatrixStats, BiocParallel, scuttle,
+ResidualMatrix, ScaledMatrix, beachmat" "Rcpp" "testthat, BiocStyle, knitr, rmarkdown, scran, scater,
+bluster, scRNAseq" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"batchelor\",version=\"1.10.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"beachmat" "beachmat" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.10.0" NA NA "methods, DelayedArray (>= 0.15.14), BiocGenerics, Matrix, Rcpp" "Rcpp" "testthat, BiocStyle, knitr, rmarkdown, rcmdcheck,
+BiocParallel, HDF5Array" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"beachmat\",version=\"2.10.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Biobase" "Biobase" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.54.0" NA "R (>= 2.10), BiocGenerics (>= 0.27.1), utils" "methods" NA "tools, tkWidgets, ALL, RUnit, golubEsets" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Biobase\",version=\"2.54.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocFileCache" "BiocFileCache" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.2.1" NA "R (>= 3.4.0), dbplyr (>= 1.0.0)" "methods, stats, utils, dplyr, RSQLite, DBI, rappdirs,
+filelock, curl, httr" NA "testthat, knitr, BiocStyle, rmarkdown, rtracklayer" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"BiocFileCache\",version=\"2.2.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocGenerics" "BiocGenerics" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.40.0" NA "R (>= 4.0.0), methods, utils, graphics, stats" "methods, utils, graphics, stats" NA "Biobase, S4Vectors, IRanges, GenomicRanges, DelayedArray,
+Biostrings, Rsamtools, AnnotationDbi, affy, affyPLM, DESeq2,
+flowClust, MSnbase, annotate, RUnit" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"BiocGenerics\",version=\"0.40.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocNeighbors" "BiocNeighbors" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.12.0" NA NA "Rcpp, S4Vectors, BiocParallel, stats, methods, Matrix" "Rcpp, RcppHNSW" "testthat, BiocStyle, knitr, rmarkdown, FNN, RcppAnnoy,
+RcppHNSW" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"BiocNeighbors\",version=\"1.12.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocParallel" "BiocParallel" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.28.3" NA "methods, R (>= 3.5.0)" "stats, utils, futile.logger, parallel, snow" "BH" "BiocGenerics, tools, foreach, BatchJobs, BBmisc, doParallel,
+Rmpi, GenomicRanges, RNAseqData.HNRNPC.bam.chr14,
+TxDb.Hsapiens.UCSC.hg19.knownGene, VariantAnnotation,
+Rsamtools, GenomicAlignments, ShortRead, codetools, RUnit,
+BiocStyle, knitr, batchtools, data.table" NA "GPL-2 | GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"BiocParallel\",version=\"1.28.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocSingular" "BiocSingular" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.10.0" NA NA "BiocGenerics, S4Vectors, Matrix, methods, utils, DelayedArray,
+BiocParallel, ScaledMatrix, irlba, rsvd, Rcpp, beachmat" "Rcpp, beachmat" "testthat, BiocStyle, knitr, rmarkdown, ResidualMatrix" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"BiocSingular\",version=\"1.10.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"BiocVersion" "BiocVersion" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.14.0" NA "R (>= 4.1.0)" NA NA NA NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"BiocVersion\",version=\"3.14.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"biocViews" "biocViews" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.62.1" NA "R (>= 3.6.0)" "Biobase, graph (>= 1.9.26), methods, RBGL (>= 1.13.5), tools,
+utils, XML, RCurl, RUnit, BiocManager" NA "BiocGenerics, knitr, commonmark" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"biocViews\",version=\"1.62.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"biomaRt" "biomaRt" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.50.3" NA "methods" "utils, XML, AnnotationDbi, progress, stringr, httr, digest,
+BiocFileCache, rappdirs, xml2" NA "BiocStyle, knitr, rmarkdown, testthat, mockery" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"biomaRt\",version=\"2.50.3\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Biostrings" "Biostrings" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.62.0" NA "R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9), XVector (>= 0.29.2),
+GenomeInfoDb" "methods, utils, grDevices, graphics, stats, crayon" "S4Vectors, IRanges, XVector" "BSgenome (>= 1.13.14), BSgenome.Celegans.UCSC.ce2 (>=
+1.3.11), BSgenome.Dmelanogaster.UCSC.dm3 (>= 1.3.11),
+BSgenome.Hsapiens.UCSC.hg18, drosophila2probe, hgu95av2probe,
+hgu133aprobe, GenomicFeatures (>= 1.3.14), hgu95av2cdf, affy
+(>= 1.41.3), affydata (>= 1.11.5), RUnit" "Rmpi" "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Biostrings\",version=\"2.62.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"clusterProfiler" "clusterProfiler" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "4.2.2" NA "R (>= 3.5.0)" "AnnotationDbi, downloader, DOSE (>= 3.13.1), dplyr, enrichplot
+(>= 1.9.3), GO.db, GOSemSim, magrittr, methods, plyr, qvalue,
+rlang, stats, tidyr, utils, yulab.utils" NA "AnnotationHub, knitr, rmarkdown, org.Hs.eg.db, prettydoc,
+ReactomePA, testthat" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"clusterProfiler\",version=\"4.2.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ComplexHeatmap" "ComplexHeatmap" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.10.0" NA "R (>= 3.5.0), methods, grid, graphics, stats, grDevices" "circlize (>= 0.4.5), GetoptLong, colorspace, clue,
+RColorBrewer, GlobalOptions (>= 0.1.0), png, digest, IRanges,
+matrixStats, foreach, doParallel" NA "testthat (>= 1.0.0), knitr, markdown, dendsort, jpeg, tiff,
+fastcluster, EnrichedHeatmap, dendextend (>= 1.0.1), grImport,
+grImport2, glue, GenomicRanges, gridtext, pheatmap (>= 1.0.12),
+gridGraphics, gplots, rmarkdown, Cairo" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ComplexHeatmap\",version=\"2.10.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"cytolib" "cytolib" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.6.2" NA "R (>= 3.4)" "RcppParallel, RProtoBufLib" "Rcpp, BH(>= 1.75.0.0), RProtoBufLib(>= 2.3.5),Rhdf5lib,
+RcppArmadillo, RcppParallel(>= 4.4.2-1)" "knitr, rmarkdown" NA "file LICENSE" NA "yes" NA NA "yes" "4.1.2" "devtools::install_version(\"cytolib\",version=\"2.6.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DelayedArray" "DelayedArray" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.20.0" NA "R (>= 4.0.0), methods, stats4, Matrix, BiocGenerics (>=
+0.37.0), MatrixGenerics (>= 1.1.3), S4Vectors (>= 0.27.2),
+IRanges (>= 2.17.3)" "stats" "S4Vectors" "BiocParallel, HDF5Array (>= 1.17.12), genefilter,
+SummarizedExperiment, airway, lobstr, DelayedMatrixStats,
+knitr, rmarkdown, BiocStyle, RUnit" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"DelayedArray\",version=\"0.20.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DelayedMatrixStats" "DelayedMatrixStats" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.16.0" NA "MatrixGenerics (>= 1.5.3), DelayedArray (>= 0.17.6)" "methods, matrixStats (>= 0.60.0), sparseMatrixStats, Matrix,
+S4Vectors (>= 0.17.5), IRanges (>= 2.25.10)" NA "testthat, knitr, rmarkdown, covr, BiocStyle, microbenchmark,
+profmem, HDF5Array" NA "MIT + file LICENSE" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"DelayedMatrixStats\",version=\"1.16.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DESeq2" "DESeq2" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.34.0" NA "S4Vectors (>= 0.23.18), IRanges, GenomicRanges,
+SummarizedExperiment (>= 1.1.6)" "BiocGenerics (>= 0.7.5), Biobase, BiocParallel, genefilter,
+methods, stats4, locfit, geneplotter, ggplot2, Rcpp (>= 0.11.0)" "Rcpp, RcppArmadillo" "testthat, knitr, rmarkdown, vsn, pheatmap, RColorBrewer,
+apeglm, ashr, tximport, tximeta, tximportData, readr, pbapply,
+airway, pasilla (>= 0.2.10), glmGamPoi, BiocManager" NA "LGPL (>= 3)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"DESeq2\",version=\"1.34.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"DOSE" "DOSE" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.20.1" NA "R (>= 3.5.0)" "AnnotationDbi, BiocParallel, DO.db, fgsea, ggplot2, GOSemSim
+(>= 2.0.0), methods, qvalue, reshape2, stats, utils" NA "prettydoc, clusterProfiler, knitr, rmarkdown, org.Hs.eg.db,
+testthat" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"DOSE\",version=\"3.20.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"edgeR" "edgeR" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.36.0" NA "R (>= 3.6.0), limma (>= 3.41.5)" "methods, graphics, stats, utils, locfit, Rcpp" "Rcpp" "jsonlite, readr, rhdf5, splines, Biobase, AnnotationDbi,
+SummarizedExperiment, org.Hs.eg.db" NA "GPL (>=2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"edgeR\",version=\"3.36.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"enrichplot" "enrichplot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.14.2" NA "R (>= 3.5.0)" "aplot, DOSE (>= 3.16.0), ggplot2, ggraph, graphics, grid,
+igraph, methods, plyr, purrr, RColorBrewer, reshape2, stats,
+utils, scatterpie, shadowtext, GOSemSim, magrittr, ggtree,
+yulab.utils (>= 0.0.4)" NA "clusterProfiler, dplyr, europepmc, ggupset, knitr, rmarkdown,
+org.Hs.eg.db, prettydoc, tibble, tidyr, ggforce, AnnotationDbi,
+ggplotify, ggridges, grDevices, gridExtra, ggnewscale, ggrepel
+(>= 0.9.0), ggstar, treeio, scales, tidytree, ggtreeExtra" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"enrichplot\",version=\"1.14.2\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"fgsea" "fgsea" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.20.0" NA "R (>= 3.3)" "Rcpp, data.table, BiocParallel, stats, ggplot2 (>= 2.2.0),
+gridExtra, grid, fastmatch, Matrix, utils" "Rcpp, BH" "testthat, knitr, rmarkdown, reactome.db, AnnotationDbi,
+parallel, org.Mm.eg.db, limma, GEOquery" NA "MIT + file LICENCE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"fgsea\",version=\"1.20.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"flowCore" "flowCore" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.6.0" NA "R (>= 3.5.0)" "Biobase, BiocGenerics (>= 0.29.2), grDevices, graphics,
+methods, stats, utils, stats4, Rcpp, matrixStats, cytolib (>=
+2.3.4), S4Vectors" "Rcpp, RcppArmadillo, BH(>= 1.65.0.1), cytolib, RProtoBufLib" "Rgraphviz, flowViz, flowStats (>= 3.43.4), testthat,
+flowWorkspace, flowWorkspaceData, openCyto, knitr, ggcyto,
+gridExtra" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"flowCore\",version=\"2.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"genefilter" "genefilter" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.76.0" NA NA "BiocGenerics, AnnotationDbi, annotate, Biobase, graphics,
+methods, stats, survival, grDevices" NA "class, hgu95av2.db, tkWidgets, ALL, ROC, RColorBrewer,
+BiocStyle, knitr" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"genefilter\",version=\"1.76.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"geneplotter" "geneplotter" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.72.0" NA "R (>= 2.10), methods, Biobase, BiocGenerics, lattice, annotate" "AnnotationDbi, graphics, grDevices, grid, RColorBrewer, stats,
+utils" NA "Rgraphviz, fibroEset, hgu95av2.db, hu6800.db, hgu133a.db" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"geneplotter\",version=\"1.72.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GenomeInfoDb" "GenomeInfoDb" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.30.1" NA "R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.25.12), IRanges (>= 2.13.12)" "stats, stats4, utils, RCurl, GenomeInfoDbData" NA "GenomicRanges, Rsamtools, GenomicAlignments, GenomicFeatures,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene, BSgenome,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Celegans.UCSC.ce2,
+BSgenome.Hsapiens.NCBI.GRCh38, RUnit, BiocStyle, knitr" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"GenomeInfoDb\",version=\"1.30.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GenomicRanges" "GenomicRanges" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.46.1" NA "R (>= 4.0.0), methods, stats4, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.15.2)" "utils, stats, XVector (>= 0.29.2)" "S4Vectors, IRanges" "Matrix, Biobase, AnnotationDbi, annotate, Biostrings (>=
+2.25.3), SummarizedExperiment (>= 0.1.5), Rsamtools (>=
+1.13.53), GenomicAlignments, rtracklayer, BSgenome,
+GenomicFeatures, Gviz, VariantAnnotation, AnnotationHub,
+DESeq2, DEXSeq, edgeR, KEGGgraph, RNAseqData.HNRNPC.bam.chr14,
+pasillaBamSubset, KEGGREST, hgu95av2.db, hgu95av2probe,
+BSgenome.Scerevisiae.UCSC.sacCer2, BSgenome.Hsapiens.UCSC.hg19,
+BSgenome.Mmusculus.UCSC.mm10,
+TxDb.Athaliana.BioMart.plantsmart22,
+TxDb.Dmelanogaster.UCSC.dm3.ensGene,
+TxDb.Hsapiens.UCSC.hg19.knownGene,
+TxDb.Mmusculus.UCSC.mm10.knownGene, RUnit, digest, knitr,
+rmarkdown, BiocStyle" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"GenomicRanges\",version=\"1.46.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ggtree" "ggtree" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.2.1" NA "R (>= 3.5.0)" "ape, aplot (>= 0.0.4), dplyr, ggplot2 (>= 3.0.0), grid,
+magrittr, methods, purrr, rlang, ggfun, yulab.utils, tidyr,
+tidytree (>= 0.2.6), treeio (>= 1.8.0), utils, scales" NA "emojifont, ggimage, ggplotify, grDevices, knitr, prettydoc,
+rmarkdown, stats, testthat, tibble" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ggtree\",version=\"3.2.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GOSemSim" "GOSemSim" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.20.0" NA "R (>= 3.5.0)" "AnnotationDbi, GO.db, methods, utils" "Rcpp" "AnnotationHub, BiocManager, clusterProfiler, DOSE, knitr,
+rmarkdown, org.Hs.eg.db, prettydoc, testthat, ROCR" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"GOSemSim\",version=\"2.20.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"graph" "graph" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.72.0" NA "R (>= 2.10), methods, BiocGenerics (>= 0.13.11)" "stats, stats4, utils" NA "SparseM (>= 0.36), XML, RBGL, RUnit, cluster" "Rgraphviz" "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"graph\",version=\"1.72.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"GSEABase" "GSEABase" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.56.0" NA "R (>= 2.6.0), BiocGenerics (>= 0.13.8), Biobase (>= 2.17.8),
+annotate (>= 1.45.3), methods, graph (>= 1.37.2)" "AnnotationDbi, XML" NA "hgu95av2.db, GO.db, org.Hs.eg.db, Rgraphviz, ReportingTools,
+testthat, BiocStyle, knitr" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"GSEABase\",version=\"1.56.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"IRanges" "IRanges" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.28.0" NA "R (>= 4.0.0), methods, utils, stats, BiocGenerics (>= 0.39.2),
+S4Vectors (>= 0.29.19)" "stats4" "S4Vectors" "XVector, GenomicRanges, Rsamtools, GenomicAlignments,
+GenomicFeatures, BSgenome.Celegans.UCSC.ce2, pasillaBamSubset,
+RUnit, BiocStyle" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"IRanges\",version=\"2.28.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"KEGGREST" "KEGGREST" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.34.0" NA "R (>= 3.5.0)" "methods, httr, png, Biostrings" NA "RUnit, BiocGenerics, knitr, markdown" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"KEGGREST\",version=\"1.34.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"limma" "limma" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "3.50.1" NA "R (>= 3.6.0)" "grDevices, graphics, stats, utils, methods" NA "affy, AnnotationDbi, BiasedUrn, Biobase, ellipse, GO.db,
+gplots, illuminaio, locfit, MASS, org.Hs.eg.db, splines,
+statmod (>= 1.2.2), vsn" NA "GPL (>=2)" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"limma\",version=\"3.50.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"MatrixGenerics" "MatrixGenerics" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6.0" NA "matrixStats (>= 0.60.1)" "methods" NA "sparseMatrixStats, DelayedMatrixStats, SummarizedExperiment,
+testthat (>= 2.1.0)" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"MatrixGenerics\",version=\"1.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"monocle" "monocle" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.22.0" NA "R (>= 2.10.0), methods, Matrix (>= 1.2-6), Biobase, ggplot2
+(>= 1.0.0), VGAM (>= 1.0-6), DDRTree (>= 0.1.4)," "parallel, igraph (>= 1.0.1), BiocGenerics, HSMMSingleCell (>=
+0.101.5), plyr, cluster, combinat, fastICA, grid, irlba (>=
+2.0.0), matrixStats, densityClust (>= 0.3), Rtsne, MASS,
+reshape2, limma, tibble, dplyr, qlcMatrix, pheatmap, stringr,
+proxy, slam, viridis, stats, biocViews, RANN(>= 2.5), Rcpp (>=
+0.12.0)" "Rcpp" "destiny, Hmisc, knitr, Seurat, scater, testthat" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"monocle\",version=\"2.22.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"multtest" "multtest" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.50.0" NA "R (>= 2.10), methods, BiocGenerics, Biobase" "survival, MASS, stats4" NA "snow" NA "LGPL" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"multtest\",version=\"2.50.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"qvalue" "qvalue" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.26.0" NA "R(>= 2.10)" "splines, ggplot2, grid, reshape2" NA "knitr" NA "LGPL" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"qvalue\",version=\"2.26.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RBGL" "RBGL" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.70.0" NA "graph, methods" "methods" "BH" "Rgraphviz, XML, RUnit, BiocGenerics" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RBGL\",version=\"1.70.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ResidualMatrix" "ResidualMatrix" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.0" NA NA "methods, Matrix, S4Vectors, DelayedArray" NA "testthat, BiocStyle, knitr, rmarkdown, BiocSingular" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ResidualMatrix\",version=\"1.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rhdf5" "rhdf5" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.38.1" NA "R (>= 4.0.0), methods" "Rhdf5lib (>= 1.13.4), rhdf5filters" "Rhdf5lib" "bit64, BiocStyle, knitr, rmarkdown, testthat, microbenchmark,
+dplyr, ggplot2, mockery" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rhdf5\",version=\"2.38.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"rhdf5filters" "rhdf5filters" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6.0" NA NA NA "Rhdf5lib" "BiocStyle, knitr, rmarkdown, testthat (>= 2.1.0), rhdf5 (>=
+2.34.0)" NA "BSD_2_clause + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"rhdf5filters\",version=\"1.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"Rhdf5lib" "Rhdf5lib" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.16.0" NA "R (>= 4.0.0)" NA NA "BiocStyle, knitr, rmarkdown, tinytest, mockery" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"Rhdf5lib\",version=\"1.16.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"RProtoBufLib" "RProtoBufLib" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.6.0" NA NA NA NA "knitr, rmarkdown" NA "BSD_3_clause" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"RProtoBufLib\",version=\"2.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"S4Vectors" "S4Vectors" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.32.4" NA "R (>= 4.0.0), methods, utils, stats, stats4, BiocGenerics (>=
+0.37.0)" NA NA "IRanges, GenomicRanges, SummarizedExperiment, Matrix,
+DelayedArray, ShortRead, graph, data.table, RUnit, BiocStyle" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"S4Vectors\",version=\"0.32.4\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"ScaledMatrix" "ScaledMatrix" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0" NA NA "methods, Matrix, S4Vectors, DelayedArray" NA "testthat, BiocStyle, knitr, rmarkdown, BiocSingular" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"ScaledMatrix\",version=\"1.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"scuttle" "scuttle" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.4.0" NA "SingleCellExperiment" "methods, utils, stats, Matrix, Rcpp, BiocGenerics, S4Vectors,
+BiocParallel, GenomicRanges, SummarizedExperiment,
+DelayedArray, DelayedMatrixStats, beachmat" "Rcpp, beachmat" "BiocStyle, knitr, scRNAseq, rmarkdown, testthat, scran" NA "GPL-3" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"scuttle\",version=\"1.4.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"SingleCellExperiment" "SingleCellExperiment" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.16.0" NA "SummarizedExperiment" "methods, utils, stats, S4Vectors, BiocGenerics, GenomicRanges,
+DelayedArray" NA "testthat, BiocStyle, knitr, rmarkdown, Matrix, scRNAseq,
+Rtsne" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"SingleCellExperiment\",version=\"1.16.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"slingshot" "slingshot" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "2.2.0" NA "R (>= 4.0), princurve (>= 2.0.4), stats, TrajectoryUtils" "graphics, grDevices, igraph, matrixStats, methods, S4Vectors,
+SingleCellExperiment, SummarizedExperiment" NA "BiocGenerics, BiocStyle, clusterExperiment, knitr, mclust,
+mgcv, RColorBrewer, rgl, rmarkdown, testthat, uwot, covr" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"slingshot\",version=\"2.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"sparseMatrixStats" "sparseMatrixStats" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.6.0" NA "MatrixGenerics (>= 1.5.3)" "Rcpp, Matrix, matrixStats (>= 0.60.0), methods" "Rcpp" "testthat (>= 2.1.0), knitr, bench, rmarkdown, BiocStyle" NA "MIT + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"sparseMatrixStats\",version=\"1.6.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"SummarizedExperiment" "SummarizedExperiment" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.24.0" NA "R (>= 4.0.0), methods, MatrixGenerics (>= 1.1.3),
+GenomicRanges (>= 1.41.5), Biobase" "utils, stats, tools, Matrix, BiocGenerics (>= 0.37.0),
+S4Vectors (>= 0.27.12), IRanges (>= 2.23.9), GenomeInfoDb (>=
+1.13.1), DelayedArray (>= 0.15.10)" NA "HDF5Array (>= 1.7.5), annotate, AnnotationDbi, hgu95av2.db,
+GenomicFeatures, TxDb.Hsapiens.UCSC.hg19.knownGene, jsonlite,
+rhdf5, airway, BiocStyle, knitr, rmarkdown, RUnit, testthat,
+digest" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"SummarizedExperiment\",version=\"1.24.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"TrajectoryUtils" "TrajectoryUtils" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.2.0" NA "SingleCellExperiment" "methods, stats, Matrix, igraph, S4Vectors,
+SummarizedExperiment" NA "BiocNeighbors, DelayedArray, DelayedMatrixStats,
+BiocParallel, testthat, knitr, BiocStyle, rmarkdown" NA "GPL-3" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"TrajectoryUtils\",version=\"1.2.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"treeio" "treeio" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.18.1" NA "R (>= 3.6.0)" "ape, dplyr, jsonlite, magrittr, methods, rlang, tibble,
+tidytree (>= 0.3.0), utils" NA "Biostrings, ggplot2, ggtree, igraph, knitr, rmarkdown,
+phangorn, prettydoc, testthat, tidyr, vroom, xml2, yaml" NA "Artistic-2.0" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"treeio\",version=\"1.18.1\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"tximport" "tximport" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.22.0" NA NA "utils, stats, methods" NA "knitr, rmarkdown, testthat, tximportData,
+TxDb.Hsapiens.UCSC.hg19.knownGene, readr (>= 0.2.2), limma,
+edgeR, DESeq2 (>= 1.11.6), rhdf5, jsonlite, matrixStats,
+Matrix, fishpond" NA "GPL (>=2)" NA NA NA NA "no" "4.1.2" "devtools::install_version(\"tximport\",version=\"1.22.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"XVector" "XVector" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "0.34.0" NA "R (>= 4.0.0), methods, BiocGenerics (>= 0.37.0), S4Vectors (>=
+0.27.12), IRanges (>= 2.23.9)" "methods, utils, tools, zlibbioc, BiocGenerics, S4Vectors,
+IRanges" "S4Vectors, IRanges" "Biostrings, drosophila2probe, RUnit" NA "Artistic-2.0" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"XVector\",version=\"0.34.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
+"zlibbioc" "zlibbioc" "/home/yu.j/R/x86_64-pc-linux-gnu-library/4.1" "1.40.0" NA NA NA NA NA NA "Artistic-2.0 + file LICENSE" NA NA NA NA "yes" "4.1.2" "devtools::install_version(\"zlibbioc\",version=\"1.40.0\",repos = c(\"http://cran.us.r-project.org\", \"https://bioconductor.org/packages/3.14/bioc\"), upgrade = \"never\", force = TRUE) 
+"
